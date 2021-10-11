@@ -34,7 +34,6 @@ import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.ui.community.AddNewPostActivity
 import com.health.mental.mooditude.activity.ui.community.AddPostCommentActivity
 import com.health.mental.mooditude.activity.ui.community.PostDetailsActivity
-import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.core.M3AssessmentManager
 import com.health.mental.mooditude.custom.CustomBadgeDrawable
@@ -46,6 +45,7 @@ import com.health.mental.mooditude.databinding.ViewAssessmentTopbarSharingBindin
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.HelpOptionsFragment
 import com.health.mental.mooditude.listener.FBQueryCompletedListener
+import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.services.instrumentation.*
 import com.health.mental.mooditude.utils.*
 import org.jetbrains.anko.alert

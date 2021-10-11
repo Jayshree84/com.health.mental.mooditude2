@@ -2,7 +2,6 @@ package com.health.mental.mooditude.data.converters
 
 import androidx.room.TypeConverter
 import com.google.gson.Gson
-import com.health.mental.mooditude.data.entity.UserActivity
 import com.health.mental.mooditude.data.model.UserFeeling
 
 /**

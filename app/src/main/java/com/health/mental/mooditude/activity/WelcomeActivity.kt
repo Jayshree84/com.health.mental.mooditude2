@@ -4,8 +4,6 @@ import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.utils.REQUEST_ID_CAPTURE_IMAGE
-import com.health.mental.mooditude.utils.REQUEST_ID_START_REGISTRATION
 import com.health.mental.mooditude.utils.REQUEST_SIGNUP_ONBOARDING
 
 class WelcomeActivity : BaseActivity() {

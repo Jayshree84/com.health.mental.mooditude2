@@ -1,6 +1,5 @@
 package com.health.mental.mooditude.services.instrumentation
 
-import com.health.mental.mooditude.data.entity.TherapistRequest
 import com.health.mental.mooditude.data.model.ApiTherapistRequest
 
 /**

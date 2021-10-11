@@ -2,7 +2,6 @@ package com.health.mental.mooditude.custom
 
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import com.health.mental.mooditude.debugLog
 
 
 /**

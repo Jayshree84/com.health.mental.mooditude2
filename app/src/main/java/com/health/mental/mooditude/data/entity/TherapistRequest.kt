@@ -1,12 +1,9 @@
 package com.health.mental.mooditude.data.entity
 
-import android.content.Context
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.health.mental.mooditude.data.model.ApiReward
 import com.health.mental.mooditude.data.model.ApiTherapistRequest
 import com.health.mental.mooditude.data.model.ContactTime
-import com.health.mental.mooditude.data.model.RewardType
 import java.util.*
 
 /**

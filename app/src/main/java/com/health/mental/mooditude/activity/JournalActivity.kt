@@ -4,10 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import com.google.gson.Gson
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.activity.ui.community.PostDetailsFragment
 import com.health.mental.mooditude.data.entity.Entry
-import com.health.mental.mooditude.data.model.community.ApiPost
-import com.health.mental.mooditude.data.model.journal.EntryType
 import com.health.mental.mooditude.data.model.journal.JournalPromptStep
 import com.health.mental.mooditude.fragment.journal.DetailsFragment
 import com.health.mental.mooditude.fragment.journal.JournalMainFragment

@@ -1,7 +1,6 @@
 package com.health.mental.mooditude.data.model
 
 import com.google.firebase.database.IgnoreExtraProperties
-import com.google.firebase.firestore.Exclude
 
 /**
  * Created by Jayshree Rathod on 11,August,2021

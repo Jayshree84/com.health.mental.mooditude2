@@ -8,7 +8,6 @@ import android.view.View
 import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.activity.HowYouFeelActivity
 import com.health.mental.mooditude.activity.JournalPromptDetailsActivity
 import com.health.mental.mooditude.data.model.journal.JournalPromptStep
 import com.health.mental.mooditude.databinding.FragmentJournalPromptInputBinding

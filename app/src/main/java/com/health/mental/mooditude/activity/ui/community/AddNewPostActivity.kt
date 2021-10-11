@@ -10,21 +10,16 @@ import android.widget.ArrayAdapter
 import com.google.gson.Gson
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.BaseActivity
-import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.FirebaseStorageHelper
 import com.health.mental.mooditude.data.model.community.ApiPost
-import com.health.mental.mooditude.data.model.community.ApiPostComment
 import com.health.mental.mooditude.data.model.community.CommunityUser
 import com.health.mental.mooditude.databinding.ActivityAddNewPostBinding
-import com.health.mental.mooditude.databinding.ActivityAddPostCommentBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.services.instrumentation.EventCatalog
 import com.health.mental.mooditude.services.instrumentation.postCreated
 import com.health.mental.mooditude.utils.FileChooser
 import com.health.mental.mooditude.utils.UiUtils
-import java.util.*
-import kotlin.collections.ArrayList
 
 class AddNewPostActivity : BaseActivity(), TextWatcher {
 

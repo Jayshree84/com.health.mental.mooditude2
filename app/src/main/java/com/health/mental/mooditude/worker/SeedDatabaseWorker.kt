@@ -6,12 +6,8 @@ import androidx.work.CoroutineWorker
 import androidx.work.WorkerParameters
 import com.google.gson.*
 import com.google.gson.JsonParseException
-import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
 import com.google.gson.stream.JsonWriter
-import com.health.mental.mooditude.data.entity.*
-import com.health.mental.mooditude.utils.*
-import com.mindorks.example.coroutines.data.local.DatabaseBuilder
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.io.IOException

@@ -1,7 +1,6 @@
 package com.health.mental.mooditude.data.model
 
 import com.google.firebase.database.IgnoreExtraProperties
-import com.health.mental.mooditude.data.entity.M3Assessment
 import java.util.*
 
 /**

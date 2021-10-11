@@ -1,13 +1,11 @@
 package com.health.mental.mooditude.activity
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
 import androidx.core.app.ActivityOptionsCompat
 import com.google.firebase.auth.FirebaseAuth
-import com.health.mental.mooditude.R
 import com.health.mental.mooditude.data.SharedPreferenceManager
 import com.health.mental.mooditude.databinding.ActivitySplashBinding
 import com.health.mental.mooditude.debugLog

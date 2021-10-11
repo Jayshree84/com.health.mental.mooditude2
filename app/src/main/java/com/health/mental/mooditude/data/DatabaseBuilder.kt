@@ -12,7 +12,6 @@ import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.entity.Article
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.utils.*
-import com.health.mental.mooditude.utils.MEDITATION_CATEGORY_FILENAME
 import com.health.mental.mooditude.worker.SeedDatabaseWorker
 import com.health.mental.mooditude.worker.SeedDatabaseWorker.Companion.KEY_DATA_FILENAME
 

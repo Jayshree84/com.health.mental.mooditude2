@@ -1,11 +1,9 @@
 package com.health.mental.mooditude.activity
 
-import android.graphics.drawable.ColorDrawable
 import android.os.Bundle
 import android.view.Gravity
 import android.view.View
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.ui.tracking.FullReportFragment
 import com.health.mental.mooditude.core.M3AssessmentManager

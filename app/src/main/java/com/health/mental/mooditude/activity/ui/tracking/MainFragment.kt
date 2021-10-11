@@ -18,10 +18,8 @@ import com.github.mikephil.charting.formatter.LargeValueFormatter
 import com.github.mikephil.charting.interfaces.datasets.IBarDataSet
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.BaseActivity
-import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.core.M3AssessmentManager
 import com.health.mental.mooditude.data.DBManager
-import com.health.mental.mooditude.data.FirebaseStorageHelper
 import com.health.mental.mooditude.data.entity.M3Assessment
 import com.health.mental.mooditude.databinding.FragmentTrackingMainBinding
 import com.health.mental.mooditude.debugLog
@@ -29,7 +27,6 @@ import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.fragment.InformationDlgFragment
 import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.SlideAnimationUtil
-import com.health.mental.mooditude.utils.UiUtils
 import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList

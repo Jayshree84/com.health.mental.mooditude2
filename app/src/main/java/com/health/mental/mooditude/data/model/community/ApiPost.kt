@@ -3,15 +3,12 @@ package com.health.mental.mooditude.data.model.community
 import com.google.firebase.firestore.Exclude
 import com.google.firebase.firestore.IgnoreExtraProperties
 import com.google.gson.Gson
-import com.google.gson.JsonObject
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.utils.dateFromUTC
 import com.health.mental.mooditude.utils.dateToUTC
-import java.lang.Exception
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 /**
  * Created by Jayshree Rathod on 05,July,2021

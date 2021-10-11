@@ -2,7 +2,6 @@ package com.health.mental.mooditude.services.instrumentation
 
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.model.AppUser
-import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.utils.DATE_FORMAT_JOIN
 import com.health.mental.mooditude.utils.DATE_FORMAT_MOOD_TIME
@@ -12,7 +11,6 @@ import kotlinx.coroutines.launch
 import org.json.JSONObject
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.ArrayList
 
 /**
  * Created by Jayshree Rathod on 02,October,2021

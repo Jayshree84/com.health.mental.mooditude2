@@ -4,18 +4,15 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import com.google.firebase.database.IgnoreExtraProperties
-import com.google.gson.Gson
-import com.google.gson.reflect.TypeToken
-import com.health.mental.mooditude.data.model.*
+import com.health.mental.mooditude.data.model.ApiEntry
+import com.health.mental.mooditude.data.model.UserFeeling
 import com.health.mental.mooditude.data.model.journal.EmotionType
 import com.health.mental.mooditude.data.model.journal.EntryAttachmentType
 import com.health.mental.mooditude.data.model.journal.EntryType
 import com.health.mental.mooditude.utils.dateFromUTC
 import com.health.mental.mooditude.utils.dateToUTC
-import java.lang.reflect.Type
 import java.util.*
 import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 /**
  * Created by Jayshree Rathod on 07,July,2021

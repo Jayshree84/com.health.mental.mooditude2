@@ -6,11 +6,11 @@ import android.text.Editable
 import android.text.Html
 import android.text.TextWatcher
 import android.text.method.LinkMovementMethod
-import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.MotionEvent
 import android.view.View
 import android.view.ViewGroup
+import androidx.fragment.app.Fragment
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.EmailRegistrationActivity
 import com.health.mental.mooditude.databinding.FragmentNameBinding

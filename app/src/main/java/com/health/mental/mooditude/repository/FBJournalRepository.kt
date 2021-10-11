@@ -23,7 +23,6 @@ import com.health.mental.mooditude.services.instrumentation.createdEntryEvent
 import com.health.mental.mooditude.services.instrumentation.deletedJournalEntry
 import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.removeAllNullFields
-import java.lang.Exception
 import java.util.*
 import java.util.concurrent.Callable
 import java.util.concurrent.Executors

@@ -4,7 +4,6 @@ import androidx.lifecycle.LiveData
 import androidx.room.*
 import com.health.mental.mooditude.data.entity.Entry
 import java.util.*
-import kotlin.collections.ArrayList
 
 /**
 * The Data Access Object for the [Entry] class.

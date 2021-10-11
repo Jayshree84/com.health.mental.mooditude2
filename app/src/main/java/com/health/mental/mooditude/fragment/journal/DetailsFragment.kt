@@ -3,14 +3,11 @@ package com.health.mental.mooditude.fragment.journal
 import android.content.Intent
 import android.os.Bundle
 import android.view.*
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.core.content.ContextCompat
 import androidx.fragment.app.Fragment
 import com.google.gson.Gson
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.*
-import com.health.mental.mooditude.activity.ui.community.OptionsFragment
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.entity.Entry
 import com.health.mental.mooditude.data.entity.JournalPrompt
@@ -20,7 +17,6 @@ import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.listener.FBQueryCompletedListener
 import com.health.mental.mooditude.utils.DATE_FORMAT_MOOD_TIME
 import com.health.mental.mooditude.utils.REQUEST_EDIT_ENTRY
-import com.health.mental.mooditude.utils.REQUEST_EDIT_POST
 import com.health.mental.mooditude.utils.UiUtils
 import org.jetbrains.anko.alert
 import java.text.SimpleDateFormat

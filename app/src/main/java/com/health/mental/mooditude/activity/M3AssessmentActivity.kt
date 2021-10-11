@@ -7,10 +7,10 @@ import android.view.Menu
 import android.view.View
 import android.widget.TextView
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.data.SharedPreferenceManager
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.listener.FreshChatListener
+import com.health.mental.mooditude.services.freshchat.ChatService
 
 class M3AssessmentActivity : BaseActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

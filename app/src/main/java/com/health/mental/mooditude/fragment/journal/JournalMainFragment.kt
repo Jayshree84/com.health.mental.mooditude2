@@ -18,8 +18,6 @@ import com.health.mental.mooditude.databinding.FragmentJournalMainBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.utils.CalendarUtils
-import com.health.mental.mooditude.utils.dateFromUTC
-import java.text.SimpleDateFormat
 import java.util.*
 import kotlin.collections.ArrayList
 import kotlin.collections.LinkedHashMap

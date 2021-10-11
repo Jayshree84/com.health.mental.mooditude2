@@ -1,44 +1,28 @@
 package com.health.mental.mooditude.fragment.profile
 
-import android.content.Intent
 import android.net.Uri
 import android.os.Bundle
-import android.os.Handler
-import android.os.Looper
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.ArrayAdapter
-import android.widget.ImageView
 import android.widget.Spinner
-import android.widget.TextView
 import androidx.fragment.app.Fragment
-import androidx.recyclerview.widget.RecyclerView
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.BaseActivity
-import com.health.mental.mooditude.activity.JournalActivity
 import com.health.mental.mooditude.activity.ProfileActivity
-import com.health.mental.mooditude.activity.SetUserProfileActivity
-import com.health.mental.mooditude.adapter.JournalEntryAdapter
 import com.health.mental.mooditude.core.DataHolder
-import com.health.mental.mooditude.custom.EndlessRecyclerOnScrollListener
 import com.health.mental.mooditude.custom.MultiSpinner
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.FirebaseStorageHelper
-import com.health.mental.mooditude.data.entity.Entry
 import com.health.mental.mooditude.data.model.UserChallenge
 import com.health.mental.mooditude.data.model.UserTopGoal
-import com.health.mental.mooditude.data.model.Veteran
-import com.health.mental.mooditude.databinding.FragmentJournalMainBinding
 import com.health.mental.mooditude.databinding.FragmentProfileMainBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.utils.*
-import com.health.mental.mooditude.utils.DATE_FORMAT_MOOD_TIME
 import java.text.SimpleDateFormat
 import java.util.*
-import kotlin.collections.ArrayList
-import kotlin.collections.LinkedHashMap
 
 
 /**

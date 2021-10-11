@@ -3,10 +3,10 @@ package com.health.mental.mooditude
 import android.os.StrictMode
 import androidx.appcompat.app.AppCompatDelegate
 import androidx.multidex.MultiDexApplication
-import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.SharedPreferenceManager
 import com.health.mental.mooditude.fcm.FCMHelper
+import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.services.instrumentation.EventCatalog
 
 /**

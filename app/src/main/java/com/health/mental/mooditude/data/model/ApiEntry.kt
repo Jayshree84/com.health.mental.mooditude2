@@ -1,7 +1,5 @@
 package com.health.mental.mooditude.data.model
 
-import com.google.firebase.firestore.Exclude
-import com.google.firebase.firestore.IgnoreExtraProperties
 import com.google.gson.annotations.SerializedName
 import com.health.mental.mooditude.data.entity.UserActivity
 import com.health.mental.mooditude.data.model.journal.EmotionType

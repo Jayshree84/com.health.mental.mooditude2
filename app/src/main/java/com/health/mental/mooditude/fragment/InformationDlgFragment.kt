@@ -16,7 +16,6 @@ import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.services.instrumentation.EventCatalog
 import com.health.mental.mooditude.services.instrumentation.learnMoreAboutM3
-import com.health.mental.mooditude.services.instrumentation.viewedPastAssessments
 
 
 class InformationDlgFragment(): BottomSheetDialogFragment() {

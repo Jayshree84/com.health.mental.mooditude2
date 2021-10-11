@@ -8,7 +8,6 @@ import android.content.Intent
 import android.content.IntentFilter
 import androidx.localbroadcastmanager.content.LocalBroadcastManager
 import com.freshchat.consumer.sdk.*
-import com.health.mental.mooditude.R
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.model.AppUser

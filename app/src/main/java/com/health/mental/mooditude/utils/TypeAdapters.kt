@@ -6,7 +6,6 @@ import com.google.gson.stream.JsonWriter
 import com.health.mental.mooditude.warnLog
 import java.io.IOException
 import java.lang.reflect.Type
-import java.text.DateFormat
 import java.text.ParseException
 import java.text.SimpleDateFormat
 import java.util.*

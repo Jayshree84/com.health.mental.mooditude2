@@ -7,15 +7,7 @@ import android.net.NetworkCapabilities
 import android.net.Uri
 import android.os.Build
 import android.telephony.TelephonyManager
-import android.widget.ImageView
-import androidx.core.content.ContextCompat
-import androidx.core.content.res.ResourcesCompat
-import com.google.gson.*
-import com.google.gson.reflect.TypeToken
-import com.health.mental.mooditude.custom.Exclude
-import com.health.mental.mooditude.data.model.ApiEntry
 import com.health.mental.mooditude.debugLog
-import java.io.InputStreamReader
 import java.util.*
 import kotlin.collections.LinkedHashMap
 

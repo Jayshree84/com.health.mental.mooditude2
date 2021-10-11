@@ -1,7 +1,6 @@
 package com.health.mental.mooditude.activity.ui.home
 
 import android.content.Intent
-import android.net.Uri
 import android.os.Bundle
 import android.view.LayoutInflater
 import android.view.View
@@ -11,13 +10,9 @@ import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.BaseActivity
 import com.health.mental.mooditude.activity.HowYouFeelActivity
 import com.health.mental.mooditude.core.DataHolder
-import com.health.mental.mooditude.data.DBManager
-import com.health.mental.mooditude.data.FirebaseStorageHelper
 import com.health.mental.mooditude.data.model.AppUser
-import com.health.mental.mooditude.data.model.M3DisorderIntensity
 import com.health.mental.mooditude.data.model.journal.EmotionType
 import com.health.mental.mooditude.databinding.FragmentHomeMainBinding
-import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.utils.*
 import com.health.mental.mooditude.utils.UiUtils.loadProfileImage

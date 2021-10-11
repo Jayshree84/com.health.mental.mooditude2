@@ -10,8 +10,6 @@ import android.widget.TextView
 import androidx.core.content.ContextCompat
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.data.entity.UserActivity
-import java.util.*
-import kotlin.collections.ArrayList
 
 
 /**

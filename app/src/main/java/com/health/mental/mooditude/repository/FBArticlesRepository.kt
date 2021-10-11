@@ -8,14 +8,10 @@ import com.google.firebase.firestore.FirebaseFirestore
 import com.google.gson.Gson
 import com.health.mental.mooditude.data.AppDatabase
 import com.health.mental.mooditude.data.entity.Article
-import com.health.mental.mooditude.data.entity.PromptCategory
 import com.health.mental.mooditude.data.model.ApiArticle
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.errorLog
 import com.health.mental.mooditude.warnLog
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import java.util.concurrent.Callable
 import java.util.concurrent.Executors
 

@@ -1,8 +1,6 @@
 package com.health.mental.mooditude.data.model
 
 import com.health.mental.mooditude.data.SharedPreferenceManager
-import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 /**
  * Created by Jayshree Rathod on 06,July,2021

@@ -13,9 +13,7 @@ import com.health.mental.mooditude.activity.JournalActivity
 import com.health.mental.mooditude.data.entity.Entry
 import com.health.mental.mooditude.data.entity.JournalPrompt
 import com.health.mental.mooditude.data.model.journal.EntryType
-import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.utils.UiUtils.loadImage
-import org.jetbrains.anko.find
 import java.text.SimpleDateFormat
 import java.util.*
 

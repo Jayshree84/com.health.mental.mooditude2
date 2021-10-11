@@ -4,7 +4,9 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import com.health.mental.mooditude.data.model.*
+import com.health.mental.mooditude.data.model.ApiCourse
+import com.health.mental.mooditude.data.model.Expert
+import com.health.mental.mooditude.data.model.Lesson
 import java.lang.reflect.Type
 import java.util.*
 import kotlin.collections.HashMap

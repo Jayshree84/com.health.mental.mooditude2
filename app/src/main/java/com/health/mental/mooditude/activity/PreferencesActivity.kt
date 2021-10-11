@@ -4,11 +4,8 @@ import android.os.Bundle
 import android.view.View
 import androidx.core.content.ContextCompat
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.fragment.MAssessmentQuestFragment
 import com.health.mental.mooditude.fragment.preferences.DeleteAccountFragment
 import com.health.mental.mooditude.fragment.preferences.PreferencesMainFragment
-import com.health.mental.mooditude.fragment.profile.ProfileMainFragment
-import com.health.mental.mooditude.fragment.profile.ProfileSubFragment
 import com.health.mental.mooditude.utils.UiUtils
 
 class PreferencesActivity : BaseActivity() {

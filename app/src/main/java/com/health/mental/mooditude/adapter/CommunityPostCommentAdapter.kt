@@ -1,6 +1,5 @@
 package com.health.mental.mooditude.adapter
 
-import android.R.color
 import android.content.Context
 import android.content.res.ColorStateList
 import android.graphics.drawable.Drawable

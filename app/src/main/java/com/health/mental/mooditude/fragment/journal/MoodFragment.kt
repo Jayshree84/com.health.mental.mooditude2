@@ -18,7 +18,6 @@ import com.health.mental.mooditude.data.model.journal.EmotionType
 import com.health.mental.mooditude.databinding.FragmentMoodBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment
-import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.DATE_FORMAT_MOOD_TIME
 import com.health.mental.mooditude.utils.UiUtils
 import java.text.SimpleDateFormat

@@ -7,11 +7,9 @@ import android.view.ViewGroup
 import android.widget.TextView
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.databinding.FragmentCareBinding
-import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.fragment.requesttherapist.HealthTherapistsFragment
 import com.health.mental.mooditude.fragment.requesttherapist.PaymentMethodFragment
-import com.health.mental.mooditude.utils.getUserCountry
 import com.health.mental.mooditude.utils.isCountrySupported
 
 class CareFragment : BaseFragment() {

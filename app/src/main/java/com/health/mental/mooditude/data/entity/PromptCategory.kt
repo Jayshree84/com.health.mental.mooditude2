@@ -4,8 +4,8 @@ import androidx.room.Entity
 import androidx.room.Ignore
 import androidx.room.PrimaryKey
 import com.google.gson.Gson
-import com.health.mental.mooditude.data.model.journal.ApiJournalPromptCategory
 import com.health.mental.mooditude.data.model.Expert
+import com.health.mental.mooditude.data.model.journal.ApiJournalPromptCategory
 
 /**
  * Created by Jayshree Rathod on 02,July,2021

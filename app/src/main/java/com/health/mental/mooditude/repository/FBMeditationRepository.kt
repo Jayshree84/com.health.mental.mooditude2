@@ -7,7 +7,6 @@ import com.google.firebase.database.ValueEventListener
 import com.google.firebase.firestore.FirebaseFirestore
 import com.google.gson.Gson
 import com.health.mental.mooditude.data.AppDatabase
-import com.health.mental.mooditude.data.entity.Article
 import com.health.mental.mooditude.data.entity.MeditationCategory
 import com.health.mental.mooditude.data.entity.MeditationInfo
 import com.health.mental.mooditude.data.model.ApiMeditationCategory
@@ -15,9 +14,6 @@ import com.health.mental.mooditude.data.model.ApiMeditationInfo
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.errorLog
 import com.health.mental.mooditude.warnLog
-import kotlinx.coroutines.CoroutineScope
-import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.launch
 import java.util.concurrent.Callable
 import java.util.concurrent.Executors
 

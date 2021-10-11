@@ -3,8 +3,6 @@ package com.health.mental.mooditude.data.model
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.database.Exclude
 import com.google.gson.Gson
-import java.util.*
-import kotlin.collections.ArrayList
 
 /**
  * Created by Jayshree Rathod on 10,July,2021

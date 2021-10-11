@@ -1,11 +1,8 @@
 package com.health.mental.mooditude.repository
 
-import android.app.Application
-
 import androidx.lifecycle.LiveData
 import com.health.mental.mooditude.data.AppDatabase
 import com.health.mental.mooditude.data.dao.UserActivityDao
-import com.health.mental.mooditude.data.entity.MeditationInfo
 import com.health.mental.mooditude.data.entity.UserActivity
 import com.health.mental.mooditude.data.model.ActivityGroup
 import com.health.mental.mooditude.debugLog
@@ -18,7 +15,6 @@ import kotlinx.coroutines.launch
 import java.util.*
 import java.util.concurrent.Callable
 import java.util.concurrent.Executors
-import kotlin.collections.ArrayList
 
 
 /**

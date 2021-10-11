@@ -9,9 +9,7 @@ import com.google.firebase.firestore.*
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.data.AppDatabase
 import com.health.mental.mooditude.data.dao.M3AssessmentDao
-import com.health.mental.mooditude.data.entity.Entry
 import com.health.mental.mooditude.data.entity.M3Assessment
-import com.health.mental.mooditude.data.model.ApiEntry
 import com.health.mental.mooditude.data.model.M3QuestionData
 import com.health.mental.mooditude.data.model.M3ScoreMessageData
 import com.health.mental.mooditude.debugLog
@@ -26,7 +24,6 @@ import java.util.concurrent.Callable
 import java.util.concurrent.Executors
 import java.util.concurrent.Future
 import kotlin.collections.ArrayList
-import kotlin.collections.HashMap
 
 /**
  * Created by Jayshree Rathod on 06,July,2021

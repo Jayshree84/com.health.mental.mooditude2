@@ -9,8 +9,6 @@ import android.view.ViewGroup
 import androidx.fragment.app.Fragment
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.OnBoardingActivity
-import com.health.mental.mooditude.databinding.FragmentDailyCheckinBinding
-import com.health.mental.mooditude.databinding.FragmentDeliverResultsBinding
 import com.health.mental.mooditude.databinding.FragmentRegulateEmotionsBinding
 import com.health.mental.mooditude.fragment.BaseFragment
 

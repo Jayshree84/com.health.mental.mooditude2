@@ -6,11 +6,9 @@ import androidx.room.PrimaryKey
 import com.google.firebase.database.IgnoreExtraProperties
 import com.google.firebase.firestore.Exclude
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.dateFromUTC
 import com.health.mental.mooditude.utils.dateToUTC
 import java.util.*
-import kotlin.collections.ArrayList
 
 /**
  * Created by Jayshree Rathod on 07,July,2021

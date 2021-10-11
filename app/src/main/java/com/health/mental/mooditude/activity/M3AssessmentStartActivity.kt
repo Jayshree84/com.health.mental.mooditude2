@@ -1,13 +1,11 @@
 package com.health.mental.mooditude.activity
 
-import android.content.Intent
 import android.os.Build
 import android.os.Bundle
 import android.text.Html
 import android.view.View
 import android.widget.TextView
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.activity.ui.tracking.OptionsBottomSheetFragment
 import com.health.mental.mooditude.fragment.InformationDlgFragment
 
 class M3AssessmentStartActivity : BaseActivity() {

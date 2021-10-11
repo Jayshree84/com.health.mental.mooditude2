@@ -2,11 +2,9 @@ package com.health.mental.mooditude.data.entity
 
 import androidx.room.Entity
 import androidx.room.PrimaryKey
-import com.google.firebase.encoders.annotations.Encodable
 import com.google.firebase.firestore.Exclude
 import com.google.firebase.firestore.IgnoreExtraProperties
 import com.health.mental.mooditude.data.model.ActivityGroup
-import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.dateFromUTC
 import com.health.mental.mooditude.utils.dateToUTC
 import java.util.*

@@ -9,7 +9,6 @@ import com.google.firebase.ktx.Firebase
 import com.google.gson.GsonBuilder
 import com.google.gson.reflect.TypeToken
 import com.google.gson.stream.JsonReader
-import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.core.GoOfflineWhenInvisible
 import com.health.mental.mooditude.data.entity.*
 import com.health.mental.mooditude.data.model.*
@@ -21,8 +20,8 @@ import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.errorLog
 import com.health.mental.mooditude.listener.FBQueryCompletedListener
 import com.health.mental.mooditude.repository.*
+import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.utils.*
-import com.health.mental.mooditude.utils.MEDITATION_CATEGORY_FILENAME
 import com.health.mental.mooditude.worker.SeedDatabaseWorker
 import com.mindorks.example.coroutines.data.local.DatabaseBuilder
 import java.lang.reflect.Type

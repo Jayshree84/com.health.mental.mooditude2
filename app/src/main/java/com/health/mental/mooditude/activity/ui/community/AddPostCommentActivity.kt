@@ -19,7 +19,6 @@ import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.utils.FileChooser
 import com.health.mental.mooditude.utils.UiUtils
 import java.util.*
-import kotlin.collections.ArrayList
 
 class AddPostCommentActivity : BaseActivity(), TextWatcher {
 

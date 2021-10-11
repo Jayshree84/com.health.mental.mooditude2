@@ -5,7 +5,7 @@ import com.google.firebase.auth.EmailAuthCredential
 import com.google.firebase.auth.EmailAuthProvider
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.databinding.ActivityEmailRegistrationBinding
-import com.health.mental.mooditude.fragment.*
+import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.fragment.registration.*
 import com.health.mental.mooditude.services.instrumentation.EventCatalog
 import com.health.mental.mooditude.services.instrumentation.resetPassword

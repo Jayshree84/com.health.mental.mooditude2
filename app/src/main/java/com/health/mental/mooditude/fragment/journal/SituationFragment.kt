@@ -17,7 +17,6 @@ import com.health.mental.mooditude.adapter.UserActivityAdapter
 import com.health.mental.mooditude.custom.CustomGridView
 import com.health.mental.mooditude.custom.CustomTypefaceSpan
 import com.health.mental.mooditude.data.SharedPreferenceManager
-import com.health.mental.mooditude.data.converters.UserActivityConverters
 import com.health.mental.mooditude.data.entity.Entry
 import com.health.mental.mooditude.data.entity.UserActivity
 import com.health.mental.mooditude.data.model.ActivityGroup
@@ -25,8 +24,6 @@ import com.health.mental.mooditude.databinding.FragmentSituationBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment
 import com.health.mental.mooditude.utils.UiUtils
-import kotlin.collections.ArrayList
-import kotlin.collections.LinkedHashMap
 
 
 /**

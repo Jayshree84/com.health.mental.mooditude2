@@ -8,10 +8,8 @@ import android.view.View
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.ActionBarDrawerToggle
-import androidx.core.animation.doOnEnd
 import androidx.core.content.ContextCompat
 import androidx.core.view.GravityCompat
-import androidx.core.view.marginBottom
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.interpolator.view.animation.LinearOutSlowInInterpolator
 import androidx.navigation.NavController
@@ -28,7 +26,6 @@ import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.ui.community.CommunityFragment
 import com.health.mental.mooditude.activity.ui.community.PostDetailsActivity
 import com.health.mental.mooditude.activity.ui.home.HomeFragment
-import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.model.AppUser
@@ -37,6 +34,7 @@ import com.health.mental.mooditude.databinding.ActivityHomeBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.listener.FBQueryCompletedListener
 import com.health.mental.mooditude.listener.FreshChatListener
+import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.KEY_EXIT
 import com.health.mental.mooditude.utils.KEY_FCM_POST_ID

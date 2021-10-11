@@ -9,7 +9,6 @@ import com.google.firebase.storage.*
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.errorLog
-import com.health.mental.mooditude.utils.CalendarUtils
 import com.health.mental.mooditude.utils.ImageUtils
 import com.health.mental.mooditude.utils.isInternetAvailable
 import java.io.ByteArrayOutputStream

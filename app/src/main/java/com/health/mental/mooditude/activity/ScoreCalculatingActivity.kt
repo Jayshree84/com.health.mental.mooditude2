@@ -3,7 +3,6 @@ package com.health.mental.mooditude.activity
 import android.os.Bundle
 import android.os.Handler
 import android.os.Looper
-import com.health.mental.mooditude.R
 import com.health.mental.mooditude.databinding.ActivityScoreCalculatingBinding
 
 class ScoreCalculatingActivity : BaseActivity() {

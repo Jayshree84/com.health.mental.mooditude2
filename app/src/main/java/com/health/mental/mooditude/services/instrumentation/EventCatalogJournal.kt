@@ -2,7 +2,6 @@ package com.health.mental.mooditude.services.instrumentation
 
 import com.health.mental.mooditude.data.entity.Entry
 import com.health.mental.mooditude.data.entity.JournalPrompt
-import com.health.mental.mooditude.data.model.ApiEntry
 import com.health.mental.mooditude.data.model.journal.EmotionType
 import com.health.mental.mooditude.data.model.journal.EntryType
 import org.json.JSONObject

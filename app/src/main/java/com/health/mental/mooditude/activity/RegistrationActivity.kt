@@ -3,17 +3,19 @@ package com.health.mental.mooditude.activity
 import android.app.Activity
 import android.app.Dialog
 import android.os.Bundle
-import com.google.firebase.auth.*
+import com.google.firebase.auth.EmailAuthCredential
+import com.google.firebase.auth.FirebaseAuth
+import com.google.firebase.auth.FirebaseUser
+import com.google.firebase.auth.UserProfileChangeRequest
+import com.health.mental.mooditude.R
 import com.health.mental.mooditude.core.DataHolder
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.data.model.AppUser
-import com.health.mental.mooditude.listener.FBQueryCompletedListener
-import org.jetbrains.anko.indeterminateProgressDialog
-import java.lang.Exception
-import java.util.*
-import com.health.mental.mooditude.R
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.errorLog
+import com.health.mental.mooditude.listener.FBQueryCompletedListener
+import org.jetbrains.anko.indeterminateProgressDialog
+import java.util.*
 
 
 /**

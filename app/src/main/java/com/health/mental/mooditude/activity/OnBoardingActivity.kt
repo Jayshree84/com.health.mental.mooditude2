@@ -5,11 +5,11 @@ import android.os.Bundle
 import android.view.Menu
 import com.google.gson.Gson
 import com.health.mental.mooditude.R
-import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.data.DBManager
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.onboardingsignup.*
 import com.health.mental.mooditude.listener.FreshChatListener
+import com.health.mental.mooditude.services.freshchat.ChatService
 import com.health.mental.mooditude.services.instrumentation.*
 import com.health.mental.mooditude.utils.REQUEST_CREATE_GUIDED_ENTRY
 import com.health.mental.mooditude.utils.REQUEST_CREATE_MOOD_ENTRY

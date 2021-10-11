@@ -3,7 +3,6 @@ package com.health.mental.mooditude.services.instrumentation
 import com.health.mental.mooditude.data.SharedPreferenceManager
 import com.health.mental.mooditude.data.model.AppUser
 import org.json.JSONObject
-import java.util.*
 
 /**
  * Created by Jayshree Rathod on 01,October,2021

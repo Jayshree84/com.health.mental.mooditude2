@@ -10,7 +10,6 @@ import com.health.mental.mooditude.R
 import com.health.mental.mooditude.activity.BaseActivity
 import com.health.mental.mooditude.data.entity.PostCategory
 import com.health.mental.mooditude.data.model.community.ApiPost
-import com.health.mental.mooditude.data.model.community.ApiPostComment
 import com.health.mental.mooditude.databinding.FragmentCommunityBinding
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.fragment.BaseFragment

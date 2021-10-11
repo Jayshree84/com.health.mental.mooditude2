@@ -2,7 +2,6 @@ package com.health.mental.mooditude.data.dao
 
 import androidx.lifecycle.LiveData
 import androidx.room.*
-import com.health.mental.mooditude.data.entity.M3Assessment
 import com.health.mental.mooditude.data.entity.TherapistRequest
 
 /**

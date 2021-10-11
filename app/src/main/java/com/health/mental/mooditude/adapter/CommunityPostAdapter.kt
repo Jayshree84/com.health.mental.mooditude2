@@ -21,7 +21,6 @@ import com.health.mental.mooditude.data.model.community.ReactionType
 import com.health.mental.mooditude.debugLog
 import com.health.mental.mooditude.listener.FBQueryCompletedListener
 import com.health.mental.mooditude.utils.REQUEST_ADD_POST_COMMENT
-import com.health.mental.mooditude.utils.UiUtils
 import com.health.mental.mooditude.utils.UiUtils.loadImage
 import org.jetbrains.anko.runOnUiThread
 import java.text.SimpleDateFormat

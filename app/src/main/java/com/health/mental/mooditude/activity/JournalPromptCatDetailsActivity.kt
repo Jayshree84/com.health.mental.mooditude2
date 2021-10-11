@@ -5,15 +5,12 @@ import android.net.Uri
 import android.os.Build
 import android.os.Bundle
 import android.text.Html
-import android.util.EventLog
 import android.view.View
 import com.google.gson.Gson
 import com.google.gson.internal.LinkedTreeMap
 import com.health.mental.mooditude.R
 import com.health.mental.mooditude.databinding.ActivityJournalPromptCatDetailsBinding
 import com.health.mental.mooditude.debugLog
-import com.health.mental.mooditude.services.instrumentation.EventCatalog
-import com.health.mental.mooditude.services.instrumentation.viewedPromptCategoryDescription
 import com.health.mental.mooditude.utils.UiUtils.loadImage
 import com.health.mental.mooditude.utils.openURL
 
