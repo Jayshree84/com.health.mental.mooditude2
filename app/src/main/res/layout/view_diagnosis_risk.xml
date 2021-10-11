@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:weightSum="1"
+    android:layout_marginBottom="@dimen/_10sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.health.mental.mooditude.custom.Circle
+        android:layout_width="@dimen/_16sdp"
+        android:layout_height="@dimen/_16sdp"
+        app:circleColor="@color/risk_high"
+        android:id="@+id/circle_risk"
+        />
+
+    <TextView
+        android:id="@+id/tv_risk_name"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/circularstd_black"
+        android:text="depression_risk"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp"
+        android:layout_weight="0.6"
+        android:layout_marginStart="@dimen/_8sdp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/tv_risk_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/circularstd_book"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_14ssp"
+        android:layout_weight="0.4"
+        android:text="@string/high_risk"
+        android:textStyle="normal" />
+
+
+</LinearLayout>

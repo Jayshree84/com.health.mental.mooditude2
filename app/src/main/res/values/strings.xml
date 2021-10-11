@@ -1,0 +1,671 @@
+<resources>
+    <string name="app_name">Mooditude</string>
+    <string name="mooditude">mooditude</string>
+    <string name="happy_you">A Happier You!</string>
+    <string name="continue_text">continue</string>
+    <string name="title_activity_account_registration">AccountRegistrationActivity</string>
+
+    <string name="join_mooditude">Join Mooditude</string>
+    <string name="you_deserve">You deserve to be happy!</string>
+    <string name="hint_name">Your Name</string>
+    <string name="hint_promo_code">Please enter code here.</string>
+    <string name="next_text">next</string>
+    <string name="already_have_accnt">Already have an account? Login</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="email_exists">Email exists</string>
+    <string name="hint_email">Your email e.g. you@domain.com</string>
+    <string name="hint_password">Password</string>
+    <string name="signup">Sign Up</string>
+    <string name="hint_reenter_password">Renter Password</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="please_enter_password">Please enter password</string>
+    <string name="mismatch_password">Passwords do not match</string>
+    <string name="create_account">Create Account</string>
+    <string name="creating_account">Creating account...</string>
+    <string name="account_created">Your acccout is created</string>
+    <string name="congratulations">Congratulations!!</string>
+    <string name="error_text">Error</string>
+    <string name="saving_information">Saving information</string>
+    <string name="login">Log In</string>
+    <string name="signin_in">Signing in....</string>
+    <string name="please_use_email">Please use an email that you can access from this device. We will send you a verification link that you will have to open on this device.</string>
+    <string name="forgot_password_recover">Recover password</string>
+    <string name="not_have_accnt_signup">Don’t have an account?  Sign up</string>
+    <string name="reset_pwd">Reset Password</string>
+    <string name="instruction_sent">Instruction Sent</string>
+    <string name="check_ur_mail">Please check your email for the instructions to reset your password.</string>
+    <string name="please_wait">Please wait…</string>
+    <string name="loggin_in">Please wait…</string>
+    <string name="welcome">Welcome</string>
+    <string name="welcome_user">You are now a Moodituder!</string>
+    <string name="you_taken"><![CDATA[Get ready to see significant improvement in your mental wellbeing.<p/><p/>
+        Let\'s personalize Mooditude for you!]]></string>
+    <string name="goal_title">What do you want to achieve?</string>
+    <string name="goal_desc">Please select just one, the most important goal.</string>
+    <string name="age_title">How old are you?</string>
+    <string name="below_age_desc">Since you\'re under 18, get permission from your parents before you use this app. (Just let me know what you\'re up to.)</string>
+    <string name="goal_sleep">Sleep better</string>
+    <string name="goal_sleep_desc">We get it; without a good night\'s sleep, it is a struggle to get through the day. We\'ll help you build a routine that will improve your sleep.</string>
+    <string name="goal_handle_stress">Handle stress</string>
+    <string name="goal_handle_stress_desc">Despite being unpleasant, the stress in itself is not an illness. But there are connections between stress and mental health conditions. We\'ll introduce you to self-care techniques for managing stress.</string>
+    <string name="goal_master">Master depression</string>
+    <string name="goal_master_desc">Depression is the absence of hope. That very deadened feeling, which is so very different from feeling sad. We\'ll introduce you to the tools and techniques that you can use to live with depression.</string>
+    <string name="goal_overcome">Overcome anxiety</string>
+    <string name="goal_overcome_desc">Anxiety is a beast. But you can defeat it without medication. We\'ll help you create a mind-body connection to change your behavior, lifestyle, and thought patterns resulting in a calmer and happier life.</string>
+    <string name="goal_control">Control Anger</string>
+    <string name="goal_control_desc">"Anger is a natural response to a threat. It became a problem when you have difficulty controlling it. We\'ll give you coping activities that you can use when you feel hurt, annoyed, or disappointed. "</string>
+    <string name="goal_boost">Boost self-esteem</string>
+    <string name="goal_boost_desc">Things that hold us back to pursue our dreams is the confidence to overcome the fear of failure. We\'ll show you ways to dismiss negative thoughts, know your inner-self, and build a positive image.</string>
+    <string name="goal_live">Live happier</string>
+    <string name="goal_live_desc">We will help you find your own NORTH STAR by introducing you to the skills needed to deal with people, handle unforeseeable events, and building mind-body connection for a fulfilling life.</string>
+    <string name="gender_title">What\'s your gender?</string>
+    <string name="gender_1">Male</string>
+    <string name="gender_2">Female</string>
+    <string name="gender_3">Transgender</string>
+    <string name="gender_4">Non-binary</string>
+    <string name="gender_5">Other</string>
+    <string name="i_have_consent">I\'ve consent from my guardians</string>
+    <string name="challenges_title">What\'s the biggest roadblock in your way?</string>
+    <string name="challenges_desc">Select one or more</string>
+    <string name="challenge_people">People</string>
+    <string name="challenge_work">Work</string>
+    <string name="challenge_health">Health</string>
+    <string name="challenge_money">Money</string>
+    <string name="challenge_me">Me</string>
+    <string name="health_professional_title">Are you working with any mental health professional?</string>
+    <string name="hp_yes">Yes</string>
+    <string name="hp_yes_desc">Wonderful. You can use Mooditude as a companion app between the therapy sessions. Tell your therapist about Mooditude.</string>
+    <string name="hp_no">No</string>
+    <string name="hp_no_desc">"That\'s okay. Use Mooditude\'s self-paced programs to learn life-changing skills. "</string>
+    <string name="CBT_title">Are you familiar with Cognitive Behavioral Therapy (CBT)?</string>
+    <string name="cbt_no_desc">No worries, we will show you how Mooditude and CBT works.</string>
+    <string name="cbt_yes">Yes</string>
+    <string name="cbt_no">No</string>
+    <string name="cbt_yes_desc"></string>
+    <string name="make_promise_title">Make a Promise</string>
+    <string name="make_promise_desc">You will get the quickest results with consistency. Are you ready to fit in 10 minutes a day for amazing changes in your mental wellbeing?</string>
+    <string name="promise1_title">Yes</string>
+    <string name="promise1_desc">Great! Stay tuned for positive changes in your mental health within a few days</string>
+    <string name="promise2_title">No</string>
+    <string name="promise2_desc">Let\'s start with only 2 minutes a day</string>
+    <string name="remind_title">Set Reminders</string>
+    <string name="remind_desc">It\'s so easy to lose track of time. We\'ll help you keep your promise by reminding you to keep your commitment.</string>
+    <string name="remind_me">Remind Me</string>
+    <string name="select_theme_desc">We’re preparing Mooditude, just for you. Meanwhile, why don’t you have some fun!</string>
+    <string name="select_theme_title">Pick your favorite color</string>
+    <string name="congrats">Congrats!</string>
+    <string name="congrats_desc">You\'ve already accomplished so much.</string>
+    <string name="you_recognized_mental_health">You prioritized your mental health goals</string>
+    <string name="you_identify_road_block">You identified the obstacles to your happiness</string>
+    <string name="you_commited">You committed to taking care of yourself</string>
+    <string name="we_r_proud">High five! 🙌</string>
+    <string name="default_notification_channel_id">channel_1</string>
+    <string name="fcm_message">Moody Message</string>
+    <string name="title_activity_home">MainActivity</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="navigation_drawer_open">Open</string>
+    <string name="navigation_drawer_close">Close</string>
+    <string name="home_navigation_drawer_open">Open navigation drawer</string>
+    <string name="home_navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_dashboard">Dashboard</string>
+    <string name="menu_meditate">Meditate</string>
+    <string name="menu_insights">Insights</string>
+    <string name="menu_coping">Coping Activities</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_help">Need Help?</string>
+    <string name="this_assessment_is">This assessment is US-recognized, clinically validated and peer-reviewed.</string>
+    <string name="this_assessment_desc"><![CDATA[Over 2,000,000 people have used this assessment. A clinic charges a minimum of $100 for even a simple assessment to detect  a single type of mental illness.<p/> <p/>
+      Our multi-dimensional test will look at risk factors for Depression, Anxiety disorders,  Bipolar disorders, Post-traumatic stress disorder, Substance Misuse, Suicidality and Functional Impairment. <p/><p/>
+     The results will personalize Mooditude for you. And you will be able share the results with your providers if you wish.]]></string>
+    <string name="consider_last_two">Consider the last two weeks or more and answer the following questions:</string>
+    <string name="swipe_up_to_select">Swipe up to make a selection.</string>
+    <string name="mental_health_assessment">Mental Health Assessment</string>
+    <string name="most_of_the_time">Most of the time</string>
+    <string name="most_of_the_time2">Most of
+        \nthe time</string>
+    <string name="often">Often</string>
+    <string name="sometime">Sometimes</string>
+    <string name="rarely">Rarely</string>
+    <string name="not_at_all">Not at all</string>
+    <string name="calculating_score">Calculating Score…</string>
+    <string name="to_begin_with"><![CDATA[Let\'s Find out <br/>Your Wellbeing Score]]></string>
+    <string name="get_a_clear_picture"><![CDATA[The next step in our journey is to assess your mental wellbeing score. It will show your risks of mental illness if any.<p/><p/>
+     We use this score in guiding you towards appropriate actions and show progress over time.]]></string>
+    <string name="assess_your_score"><![CDATA[Assess Your<br/>Wellbeing Score]]></string>
+    <string name="assess_your_mental_wellbeing">Assess Your Mental Wellbeing</string>
+    <string name="read_each_statement"><![CDATA[You are about to take a 3-minute mental health assessment that effectively measures the pulse of your mental wellbeing.</p><p/>
+
+Please read each statement carefully and select a choice that indicates how that statement applied to you over the past two weeks. There are no right or wrong answers. Take your time.]]></string>
+    <string name="start_now">Start Now</string>
+    <string name="m3_information"><![CDATA[<b>M3</b> Information]]></string>
+    <string name="learn_more_abt_science">Learn More about the science behind the assessment.</string>
+    <string name="ok_btn">OK</string>
+    <string name="your_score">Your Wellbeing Score</string>
+    <string name="high_risk">High Risk</string>
+    <string name="your_response_have">Your responses have been analyzed and compared to the responses of other individuals with and without mood and anxiety disorders. "</string>
+    <string name="score_details_medium"><![CDATA[Your score of %d is in the medium range as compared to individuals already known to be suffering from a mood or anxiety disorder. This is cause for real concern, as it indicates your symptoms are impacting your life and general health.<p/><p/>
+      We recommend that you pursue a further discussion of your results with a physician or mental health provider. Mood and anxiety disorders can affect not only your general sense of well being but your physical health as well, increasing the risk or severity of heart disease, stroke, diabetes, chronic pain and other chronic ailments.<p/><p/>
+            ]]></string>
+
+    <string name="score_details_high"><![CDATA[Your score of %d is in the high range as compared to individuals already known to be suffering from a mood or anxiety disorder. This is cause for real concern, as it indicates your symptoms are impacting your life and general health.<p/><p/>
+      We recommend that you pursue a further discussion of your results with a physician or mental health provider. Mood and anxiety disorders can affect not only your general sense of well being but your physical health as well, increasing the risk or severity of heart disease, stroke, diabetes, chronic pain and other chronic ailments.<p/><p/>
+        ]]></string>
+
+    <string name="score_details_low"><![CDATA[Your score of %d is in the low range as compared to individuals already known to be suffering from a mood or anxiety disorder. This is cause for real concern, as it indicates your symptoms are impacting your life and general health.<p/><p/>
+      We recommend that you pursue a further discussion of your results with a physician or mental health provider. Mood and anxiety disorders can affect not only your general sense of well being but your physical health as well, increasing the risk or severity of heart disease, stroke, diabetes, chronic pain and other chronic ailments.<p/><p/>
+        ]]></string>
+    <string name="no_thanks">No Thanks</string>
+    <string name="view_full_report">View Full Report</string>
+    <string name="unlikely_risk">Unlikely Risk</string>
+    <string name="low_risk">Low Risk</string>
+    <string name="medium_risk">Medium Risk</string>
+
+    <string name="unlikely_risk_details"><![CDATA[Your score of %d is below the level usually found for individuals already known to be suffering from a mood or anxiety disorder. Despite this low score, it is still important to refer to the information and recommendations below concerning your risk for each of the four conditions described. ]]></string>
+    <string name="low_risk_details"><![CDATA[Your score of %d is in the lower range as compared to individuals already known to be suffering from a mood or anxiety disorder.<p/><p/>
+                Despite this relatively low score, your symptoms may be impacting your life, livelihood, and general wellbeing. Read closely the information and recommendations below concerning your risk of each of the four conditions described.
+                ]]></string>
+    <string name="medium_risk_details"><![CDATA[Your score of %d is in the mid-range as compared to individuals already known to be suffering from a mood or anxiety disorder.
+                <p/><p/>
+                This is a significant finding, as it indicates your symptoms are probably impacting your life and general wellbeing. Read carefully the information and recommendations below concerning your risk of each of the four conditions described.
+                ]]> </string>
+    <string name="high_risk_details"><![CDATA[Your score of %d is in the high range as compared to individuals already known to be suffering from a mood or anxiety disorder.
+                <p/><p/>
+                This is cause for real concern, as it indicates your symptoms are impacting your life and general health. Read carefully the information and recommendations below concerning your risk of each of the four conditions described.
+                ]]></string>
+
+
+    <string name="read_carefully">"Read carefully the information and recommendations below concerning your risk of each of the four conditions described. "</string>
+    <string name="risk_of_depression">Depression</string>
+    <string name="risk_depression_details">Your responses on the depression scale indicate that you have a %s chance of suffering from depression.</string>
+    <string name="risk_of_anxiety">Anxiety Disorder</string>
+    <string name="risk_anxiety_details" formatted="false">Your responses on the anxiety scale indicate that there is a nearly %d% chance that you are suffering from an anxiety disorder.</string>
+    <string name="risk_of_ptsd">PTSD</string>
+    <string name="risk_ptsd_details" formatted="false">A majority of individuals suffering from post traumatic stress disorder (PTSD) respond to the scale as you did. Yet, because PTSD is less common than other mood and anxiety disorders, your risk of PTSD is just %s and a %d% chance that you are suffering from a related mood or anxiety condition. (Naturally, if you have experienced a traumatic event or events, this fact increases the likelihood of a PTSD diagnosis.)</string>
+    <string name="risk_of_bipolar">Bipolar Disorder</string>
+    <string name="risk_bipolar_details">The likelihood that you are suffering from a bipolar disorder is %s. On the other hand, your responses indicate that you have a greater than %s chance of suffering from another mood or anxiety disorder.</string>
+    <string name="recommended_actions">Recommended Actions</string>
+    <string name="find_therapist">Find the right therapist</string>
+    <string name="suicide_report_contact"><![CDATA[
+    <b>Are you in crisis?<p/><p/></b>
+Please call National Suicide Prevention Lifeline or proceed directly to an emergency room.]]></string>
+
+    <string name="suicide_report_details"><![CDATA[
+       It is very important, first of all, to point out that having such a thought does not automatically place you at risk for actual suicide. On the other hand, individuals who report suicidal thinking on closer examination are usually found to have a mood or anxiety disorder. This is true even for those who feel that due to life circumstances they have legitimate reasons for having such thoughts. Given this fact, it is crucial that you present your results to your physician and to begin a discussion of this very issue.
+<p/><p/>]]></string>
+    <string name="report_details_both"><![CDATA[Your responses indicated that you have occasionally resorted to alcohol and non-prescribed drugs to manage some of the symptoms.
+<p/><p/>
+It is important to understand that using alcohol or drugs in this way does not automatically define you as an addict.  However, self-medication for such symptoms, even when this appears to be effective, is bound to make such symptoms worse over the long term. We strongly urge you to share your assessment with your physician and to begin an honest discussion about your alcohol and drug use patterns.
+<p></p>
+It is virtually certain that a more appropriate and more effective means for managing your symptoms can be found, bringing with it a real chance for improvement in your functioning, quality of life, and overall health.
+
+]]></string>
+    <string name="report_details_drug"><![CDATA[Your responses indicated that you have occasionally resorted to using non-prescribed drugs to manage some of the symptoms.
+<p/><p/>
+It is important to understand that using drugs in this way does not automatically define you as a drug addict.  However, self-medication for such symptoms, even when this appears to be effective, is bound to make such symptoms worse over the long term. We strongly urge you to share your assessment results with your physician and to begin an honest discussion about your drug use patterns.
+<p/><p/>
+It is virtually certain that a more appropriate and more effective means for managing your symptoms can be found, bringing with it a real chance for improvement in your functioning, quality of life, and overall health.
+]]></string>
+    <string name="report_details_alcohol"><![CDATA[Your responses indicated that you have occasionally resorted to alcohol to manage some of the symptoms.
+<p/><p/>
+It is important to understand that using alcohol in this way does not automatically define you as an alcoholic.  However, self-medication for such symptoms, even when this appears to be effective, is bound to make such symptoms worse over the long term. We strongly urge you to share your assessment results with your physician and to begin an honest discussion about your alcohol use patterns.
+<p/><p/>
+It is virtually certain that a more appropriate and more effective means for managing your symptoms can be found, bringing with it a real chance for improvement in your functioning, quality of life, and overall health.
+]]></string>
+    <string name="quest29_report_details"><![CDATA[Your responses indicated that you have occasionally resorted to alcohol and non-prescribed drugs to manage some of the symptoms you were asked about on the assessment.
+        <p/><p/>
+           It is important to understand that using alcohol or drugs in this way does not automatically define you as an addict. However, self-medication for such symptoms, even when this appears to be effective, is bound to make such symptoms worse over the long-term. We strongly urge you to share you results with your physician and to begin an honest discussion about your alcohol and drug use patterns. It is virtually certain that a more appropriate and more effective means for managing your symptoms can be found, bringing with it a real chance for improvement in your functioning, quality of life, and overall health.]]></string>
+    <string name="disclaimer">Disclaimer</string>
+    <string name="disclaimer_details"><![CDATA[Mooditude is not engaged in rendering medical or other professional services, and the use of the assessment is not intended to create and does not create any medical or other professional services relationship.
+<p/><p/>
+Use of this assessment is not an adequate substitute for obtaining medical or other professional advice, diagnosis, or treatment from a qualified licensed health care provider.
+<p/><p/>
+This assessment is not intended for anyone under eighteen (18) years of age and is provided “as is” without any warranties of any kind, either express or implied, and Mooditude disclaims all warranties, including liability for indirect or consequential damages.
+]]></string>
+    <string name="depression_msg_unlikely">It is unlikely you are suffering from depression at this time.</string>
+    <string name="no_risk">No Risk</string>
+    <string name="depression_msg_low">Your responses on the depression scale indicate that you have a 1 in 3 chance of suffering from depression.</string>
+    <string name="depression_msg_medium">Your responses on the depression scale indicate that you have a 2 in 3 chance of suffering from depression.</string>
+    <string name="depression_msg_high" formatted="false" >Your responses on the depression scale indicate that there is over a 90% chance that you are suffering from depression.</string>
+    <string name="anxiety_msg_unlikely">It is unlikely you are suffering from an anxiety disorder at this time.</string>
+    <string name="anxiety_msg_low">Your responses on the anxiety scale indicate that you have a one in three chance of suffering from an anxiety disorder.</string>
+    <string name="anxiety_msg_medium" formatted="false" >Your responses on the anxiety scale indicate that you have a 50% chance of suffering from an anxiety disorder.</string>
+    <string name="anxiety_msg_high" formatted="false">Your responses on the anxiety scale indicate that there is a nearly 90% chance that you are suffering from an anxiety disorder.</string>
+    <string name="ptsd_msg_unlikely">"It is unlikely you are experiencing post-traumatic stress disorder (PTSD) at this time.  "</string>
+    <string name="ptsd_msg_low" formatted="false" >Many individuals who have post-traumatic stress disorder (PTSD) respond to the scale as you did. Yet, because PTSD is less common than other mood and anxiety disorders, your risk of PTSD is just 1 in 8 and 50% chance that you are suffering from a related mood or anxiety condition. (Naturally, if you have experienced a traumatic event or events, this fact increases the likelihood of a PTSD diagnosis.)</string>
+    <string name="ptsd_msg_medium" formatted="false">"Most individuals who have post-traumatic stress disorder (PTSD) respond to the scale as you did. Yet, because PTSD is less common than other mood and anxiety disorders, your risk of PTSD is just 1 in 5 and a 50% chance that you are suffering from a related mood or anxiety condition. (Naturally, if you have experienced a traumatic event or events, this fact increases the likelihood of a PTSD diagnosis.)  "</string>
+    <string name="ptsd_msg_high" formatted="false">Most individuals who have post-traumatic stress disorder (PTSD) respond to the PTSD scale as you did. Yet, because PTSD is less common than other mood and anxiety disorders, the likelihood that you have PTSD is about 1 in 3. (Naturally, if you are aware of having experienced a traumatic event or events, this fact increases the likelihood of a PTSD diagnosis.) Yet, your responses indicate that you have a 96% chance of suffering from another mood or anxiety disorder.</string>
+    <string name="bipolar_msg_unlikely">It is unlikely you have bipolar disorder.</string>
+    <string name="bipolar_msg_low" formatted="false">The likelihood that you have bipolar disorder is about 1 in 9. On the other hand, your responses indicate a 50% chance that you are suffering from another mood or anxiety disorder.</string>
+    <string name="bipolar_msg_medium" formatted="false">The likelihood that you have bipolar disorder is 1 in 3. On the other hand, your responses indicate that you have a greater than 1 in 3 chance of suffering from another mood or anxiety disorder.</string>
+    <string name="bipolar_msg_high" formatted="false">There is nearly a 50% likelihood that you have bipolar disorder. On the other hand, your responses indicate that you have a 1 in 3 chance of suffering from another mood or anxiety disorder.  </string>
+
+
+    <string name="unlikely_risk_desc">Unlikely risk</string>
+    <string name="low_risk_desc">Score of %d  shows that you have low risk of mental disorder. </string>
+    <string name="medium_risk_desc">Score of %d shows that you have medium risk of mental disorder. </string>
+    <string name="high_risk_desc">Score of %d shows that you have high risk of mental disorder. </string>
+    <string name="recommended_action_unlikely"><![CDATA[Your responses suggest that you are not suffering from a significant mood or anxiety disorder at the present time. However, before closing the book on this matter there are a few points you should consider.<p/><p/>
+       A small percentage of individuals with mood or anxiety disorders fail to be picked up by the assessment. Therefore, if despite reaching this point you find yourself experiencing troubling mood or anxiety-related symptoms then you should certainly present your concerns to your primary care physician or perhaps to a professional mental health clinician.<p/><p/>
+         A tendency to underestimate the effects of your symptoms on friendships, home, or work-life may have resulted in an “all is well” report when perhaps this is not strictly true. Call it “denial,” not wishing to complain, or simply trying to “tough it out,” under-reporting trouble could backfire and cause you more distress in the future. Avoid the pitfall of assuming that the way you feel “is to be expected considering my circumstances.” While bad feelings are naturally the result of difficult and stressful life situations, mood and anxiety disorders are real medical conditions that may be triggered by such stresses. When they do arise these conditions make it more difficult to cope with the problems confronting you and so it is always in your best interest to get them treated.<p/><p/>
+           Milder or sub-clinical varieties of mood and anxiety occasionally develop into more serious conditions. In such instances, symptoms may be less severe but nonetheless distracting or annoying, slowing you down or making things more stressful than they should be. If you feel this may apply to you, you should consider raising the issue with your physician and sharing your assessment report.<p/><p/>
+             Mood and anxiety disorders typically come in episodes. Therefore, even if you are feeling fine now, it is in your best interest to revisit this checklist every 6 months or so. Naturally, if at any point you find yourself experiencing some of the symptoms described in the assessment please return and repeat the checklist at your first opportunity.<p/><p/>
+               Mooditude has over 800 minutes of self-care activities. Make a habit of practicing one of them for just 10 mins a day. This will help you maintain your mental wellbeing. ]]></string>
+    <string name="recommended_action_low"><![CDATA[Your low overall score of %d means that your condition is perhaps somewhat milder than average. However, mild symptoms still may have a negative effect on your wellbeing and, when left untreated, can grow worse with time. You should find the time to contact your physician or a mental health care provider to begin a discussion of your assessment results. It is important for you to share these results with your physician.<p/><p/>
+      Mood and anxiety disorders can affect not only your general sense of wellbeing but your physical health as well, increasing the risk or severity of heart disease, stroke, diabetes, chronic pain, and other chronic ailments. ]]></string>
+    <string name="recommended_action_medium"><![CDATA[Your overall score of %d indicates that you should make a point of contacting your physician or a mental health care provider to begin a discussion of your M3 results.  It is important for you to share these results with your physician.<p/><p/>
+      Mood and anxiety disorders can affect not only your general sense of wellbeing but your physical health as well, increasing the risk or severity of heart disease, stroke, diabetes, chronic pain, and other chronic ailments. ]]></string>
+    <string name="recommended_action_high"><![CDATA[Your overall score of %d indicates that you should contact your physician or a mental health care provider as soon as possible to begin a discussion of your M3 results.<p/><p/>
+      It is important for you to share these results with your physician.  Mood and anxiety disorders can affect not only your general sense of wellbeing but your physical health as well, increasing the risk or severity of heart disease, stroke, diabetes, chronic pain, and other chronic ailments.]]></string>
+    <string name="science_behind_assessment">Science Behind the Assessment</string>
+    <string name="science_desc">The M3 Checklist is a 3-minute mental health assessment tool that efficiently measures the pulse of your mental wellbeing, by combining common symptom areas — depression, bipolar, anxiety, and post-traumatic stress disorders — with substance use and functional impairments to produce a set of mental health vital signs that can be tracked over time to measure progress.</string>
+    <string name="m3_checklist"><![CDATA[REFERENCE:<p/><p/>
+
+Feasibility and Diagnostic Validity of the M-3 Checklist: A Brief, Self-Rated Screen for Depressive, Bipolar, Anxiety, and Post-Traumatic Stress Disorders in Primary Care<p/><p/>
+
+Journal: Annals of Family Medicine<p/><p/>
+
+Authors: Bradley N. Gaynes, MD, MPH; Joanne DeVeaugh-Geiss, MA, LPA; Sam Weir, MD; Hongbin Gu, Ph.D.; Cora MacPherson, Ph.D.; Herbert C. Schulberg, Ph.D., MSHyg; Larry Culpepper, MD, MPH; and David R. Rubinow, MD.<p/><p/>
+
+<a href=https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2834723>https://www.ncbi.nlm.nih.gov/pmc/articles/PMC2834723</a>]]></string>
+    <string name="suicide_report_title">Your response to a question related to suicidal thoughts raises a red flag.</string>
+    <string name="pagetitle_home">Home</string>
+    <string name="pagetitle_community">Community</string>
+    <string name="pagetitle_selfcare">Self-care</string>
+    <string name="pagetitle_tracking">Tracking</string>
+    <string name="pagetitle_care">Health</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_community">Community</string>
+    <string name="menu_selfcare">Self-care</string>
+    <string name="menu_tracking">Tracking</string>
+    <string name="menu_care">Health</string>
+    <string name="two_weeks">TWO Weeks</string>
+    <string name="month">month</string>
+    <string name="quarter">QUARTER</string>
+    <string name="mental_wellbeing_score">Mental Wellbeing Score</string>
+    <string name="text_high">High</string>
+    <string name="text_medium">Medium</string>
+    <string name="text_low">Low</string>
+    <string name="text_unlikely">Unlikely</string>
+    <string name="depression">Depression</string>
+    <string name="anxiety">Anxiety</string>
+    <string name="ptds">PTSD</string>
+    <string name="bipolar">Bipolar</string>
+    <string name="full_report">Full report</string>
+    <string name="report">Report</string>
+    <string name="score">SCORES</string>
+    <string name="diagnosis_risk">Diagnosis Risks</string>
+    <string name="functional_impairments">Functional Impairments</string>
+    <string name="questions">Questions</string>
+    <string name="depression_risks">Depression Risks</string>
+    <string name="anxiety_risks">Anxiety Risks</string>
+    <string name="ptsd_risks">PTSD Risks</string>
+    <string name="bipolar_risks">Bipolar Risks</string>
+    <string name="answer_not_at_all">None</string>
+    <string name="answer_rarely">Rarely</string>
+    <string name="answer_sometime">Sometimes</string>
+    <string name="answer_often">Often</string>
+    <string name="answer_most_time">Most times</string>
+    <string name="validating_code">Validating code…</string>
+    <string name="show_all">Show All</string>
+    <string name="three_mins">3 mins</string>
+    <string name="score_outdated">Your wellbeing score is outdated.</string>
+    <string name="how_you_feel_today">How do you feel, today?</string>
+    <string name="how_you_feel">How do you feel?</string>
+    <string name="feel_normal">Okay</string>
+    <string name="feel_low">Bad</string>
+    <string name="feel_worst">Worst</string>
+    <string name="feel_high">Good</string>
+    <string name="feel_elevated">Great</string>
+    <string name="goal_text">Goal: %s</string>
+    <string name="USER_TOP_GOALS_SLEEPBETTER">Sleep Better</string>
+    <string name="USER_TOP_GOALS_HANDLE_STRESS">Handle Stress</string>
+    <string name="USER_TOP_GOALS_MASTER_DEPRESSION">Master Depression</string>
+    <string name="USER_TOP_GOALS_OVERCOME_ANXIETY">Overcome Anxiety</string>
+    <string name="USER_TOP_GOALS_CONTROL_ANGER">Control Anger</string>
+    <string name="USER_TOP_GOALS_BOOST_SELF_ESTEEM">Boost Self Esteem</string>
+    <string name="USER_TOP_GOALS_LIVE_HAPPIER">Live Happier</string>
+    <string name="got_code">Do you have a Sponsor’s Code?</string>
+    <string name="if_you_have_code">If you have a sponsor code from your employer or member organization, please enter it here.</string>
+    <string name="confirm">Confirm</string>
+    <string name="dont_have_code">I Do not have a code</string>
+    <string name="invalid_code">Invalid code</string>
+    <string name="share">Share</string>
+    <string name="assess_new">Assess yourself</string>
+    <string name="see_full_report">Full Report</string>
+    <string name="see_past_assessment">Past Assessment</string>
+    <string name="take_an_assessment">Take an Assessment</string>
+    <string name="text_depression">Depression</string>
+    <string name="text_anxiety">Anxiety</string>
+    <string name="text_ptsd">PTSD</string>
+    <string name="text_bipolar">Bipolar</string>
+    <string name="text_overall_score">Overall Score</string>
+    <string name="need_therapist">I NEED A THERAPIST</string>
+    <string name="you_dont_need_therapist">You don’t need a therapist but you can still set up an appoinment</string>
+    <string name="find_out_therapist">Let\'s find out if you should talk to a therapist.</string>
+    <string name="start_assessments">START ASSESSMENTS</string>
+    <string name="us_laws">U.S. Laws requires that a therapist could provide therapy to residents of its own state, only. We need to know where you live to connect you to the right therapist. </string>
+    <string name="text_state">STATE OF RESIDENCE</string>
+    <string name="no_preference">No Preference</string>
+    <string name="select_state">Select state</string>
+    <string name="we_are_not_in_state">We’re sorry we are not operating in %s</string>
+    <string name="growing_network">We’re growing our network fast. We will update you when we have therapists available in your state.</string>
+    <string name="text_emergency">If this is an emergency or if you or someone else is in danger, call the National Suicide Prevention Lifeline at 1.800.273.8255, call 911 or go to the nearest emergency room.</string>
+    <string name="care_payment_details"><![CDATA[Therapy costs $150 — $200 per session. We accept most of the insurances, cash, and medicare. Please select how you will pay for the service.<p/><p/>
+      Your first session with our care team is FREE.]]></string>
+    <string name="text_payment_method">PAYMENT METHOD</string>
+    <string name="text_done">Done</string>
+    <string name="risks">Risks</string>
+    <string name="options">Options</string>
+    <string name="skip">Skip</string>
+    <string name="welcome_name">Welcome, %s</string>
+    <string name="seeking_help">Seeking help is a strength.</string>
+    <string name="seeking_help_desc">Let us help you find the right therapist for FREE. Just answer a few questions and get matched with a highly qualified, licensed clinician.</string>
+    <string name="find_my_therapist">Find My Therapist</string>
+    <string name="seeking_help_desc2">Mooditude\'s match-making service is entirely free to you. However, once you decided to work with the matched provider, you will directly pay them.</string>
+    <string name="we_have_done">We’ve Done the Hardwork</string>
+    <string name="we_have_done_desc">Counselors in our network undergo extensive background checks and complete online training courses. That is why they can form a solid therapeutic alliance with their clients, providing the best outcomes in the shortest number of sessions.</string>
+    <string name="enjoy_working"><![CDATA[I enjoyed working with my Counselor. She helped me more in 12 weeks than I got in 14 years of therapy.<p/><p/>
+      — A Therapy Client]]></string>
+    <string name="your_wellbeing_score"><![CDATA[Your Mental<br/>Wellbeing Score]]></string>
+    <string name="we_use_score">We use your wellbeing score to match you with the perfect therapist.</string>
+    <string name="use_this_assessment">use this score</string>
+    <string name="retake_assessment">RE-TAKE Assessment</string>
+    <string name="we_use_score_outdated">We use your wellbeing score to match you with the perfect therapist. Your current wellbeing score is outdated. </string>
+    <string name="we_use_score_not_available">We use your wellbeing score to match you with the perfect therapist. Your current wellbeing score is not available. </string>
+    <string name="what_is_important">Would you please tell us what is most important for you?</string>
+    <string name="tap_and_hold">Tap-and-hold the icon on the right side of an option and drag it up or down to set the priority.</string>
+    <string name="therapist_preference1_title">Quick appointment</string>
+    <string name="therapist_preference1_desc">The first available therapist may not have the required experience and qualifications.</string>
+    <string name="therapist_preference2_title">Experience &amp; Qualifications</string>
+    <string name="therapist_preference2_desc">Experienced therapists with higher qualifications charge more.</string>
+    <string name="therapist_preference3_title">Cost of the therapy</string>
+    <string name="therapist_preference3_desc">Providers set their prices based on their location, experience, availability, and conditions they are treating.</string>
+    <string name="therapist_preference4_title">Provider’s Attributes</string>
+    <string name="therapist_preference4_desc">In the next step, you will be able to set desired attributes, for example, provider\'s age, gender, religion, ethnicity, etc.</string>
+    <string name="therapist_preference5_title">In-Person Therapy</string>
+    <string name="therapist_preference5_desc">Due to COVID-19, most providers offer tele-therapy.</string>
+    <string name="therapist_preference1_shortext">time</string>
+    <string name="therapist_preference2_shortext">experience</string>
+    <string name="therapist_preference3_shortext">cost</string>
+    <string name="therapist_preference4_shortext">provider</string>
+    <string name="therapist_preference5_shortext">in-person</string>
+    <string name="tell_us_abt_provider">Tell us the characteristics of your ideal provider?</string>
+    <string name="text_gender">gender</string>
+    <string name="text_age_group">AGE Group</string>
+    <string name="text_ethnicity">ETHNICITY</string>
+    <string name="text_language">language</string>
+    <string name="text_religion">religion</string>
+    <string name="verify_personal_info">Please, verify your personal information</string>
+    <string name="text_name">name</string>
+    <string name="veteran_status">VETERAN STATUS</string>
+    <string name="please_enter_name">Please enter name</string>
+    <string name="contact_info">Contact Information</string>
+    <string name="contact_info_desc">This is how a therapist will reach out to you for intial consultation. Please make sure this information is correct.</string>
+    <string name="text_phone">Phone</string>
+    <string name="text_email">Email</string>
+    <string name="text_time_to_contact">BEST TIME TO CONTACT</string>
+    <string name="time_to_contact1">Morning ( 09:00 am — 12 pm EST)</string>
+    <string name="time_to_contact2">Afternoon ( 12:00 pm — 4 pm EST)</string>
+    <string name="time_to_contact3">Evening( 4:00 pm — 8 pm EST)</string>
+    <string name="please_enter_email">Please enter email</string>
+    <string name="invalid_phone">Invalid phone number</string>
+    <string name="how_would_you_pay">How would you pay for the services?</string>
+    <string name="how_you_pay_desc"><![CDATA[<b>Your initial consultation with the in-take specialist is FREE.</b><p/><p/>
+       If you decide to work with the matched therapist, you will pay directly to the provider. On average, it could be between $100 and $350 per session. Many therapists accept insurance.]]></string>
+
+    <string name="doesnt_matter">Doesn\'t matter</string>
+    <string name="agegroup_1"><![CDATA[< 18]]></string>
+    <string name="agegroup_2">18 —  24</string>
+    <string name="agegroup_3">25 —  39</string>
+    <string name="agegroup_4">40 —  60</string>
+    <string name="agegroup_5"><![CDATA[> 60]]></string>
+    <string name="ethnicity_caucasian">Caucasian</string>
+    <string name="ethnicity_hispanic">Hispanic</string>
+    <string name="ethnicity_african_american">African American</string>
+    <string name="ethnicity_south_asian">South Asian</string>
+    <string name="ethnicity_east_asian">East Asian</string>
+    <string name="ethnicity_caribbean">Caribbean</string>
+    <string name="ethnicity_bi_or_multiracial">Bi or multiracial</string>
+    <string name="ethnicity_other">Other</string>
+    <string name="select_payment_method">Please select payment method</string>
+    <string name="payment_method_unknown">Don’t know yet</string>
+    <string name="payment_method_insurance">Insurance</string>
+    <string name="payment_method_medicare">Medicare</string>
+    <string name="payment_method_cash">Cash</string>
+    <string name="is_there_anything">Is there anything else that you want to tell us?</string>
+    <string name="text_message">message</string>
+    <string name="hint_request_comment">Add any additional information that may help make the match.</string>
+    <string name="title_consent">Consent</string>
+    <string name="consent_desc"><![CDATA[I understand that Mooditude will share my personal information and assessment report with conunseling providers to facilitate the match.<p/><p/>
+       By tapping Authorize and Submit, I acknowledge the terms and authorize that my information will be shared.]]></string>
+    <string name="authorize_and_submit"><![CDATA[Authorize & submit]]></string>
+    <string name="sending_request">Sending Request....</string>
+    <string name="received_your_request">We’ve received your request.</string>
+    <string name="member_of_provider_will_contact_you">A provider\'s care team member will contact you the next working day.</string>
+    <string name="provider_team_will_contact_you">A provider\'s care team member will contact you.</string>
+    <string name="requested_date">Request Date:  %s</string>
+    <string name="we_are_delighted_to_help">We’re delighted that we were able to help.</string>
+    <string name="working_with_provider">Are you working with the provider?</string>
+    <string name="hint_we_are_working">We are always working to improve your experience. Any suggestion?</string>
+    <string name="submit">SUMBIT</string>
+    <string name="sorry_to_hear">Sorry to hear that you didn\'t have the best experience.</string>
+    <string name="would_you_tell_us">Would you please tell us how we can improve the process?</string>
+    <string name="feedback">Feedback</string>
+    <string name="sending_feedback">Sending feedback…</string>
+    <string name="how_was_interaction">How was your interaction with provider’s care team?</string>
+    <string name="describe_situation" formatted="true">Describe the situation by choosing the corresponding icons. For example:\n\n
+      <annotation font="fa_pro_solid_900">   +      =</annotation>  Traveling with friends  \n\nYour turn!</string>
+    <string name="situation">Describe the Situation</string>
+    <string name="situation_desc">that made you feel this way.</string>
+    <string name="people">People</string>
+    <string name="alone1"></string>
+    <string name="alone2">Alone</string>
+    <string name="friends1"></string>
+    <string name="friends2">Friends</string>
+    <string name="partner1"></string>
+    <string name="partner2">Partner</string>
+    <string name="family1"></string>
+    <string name="family2">Family</string>
+    <string name="collegues1"></string>
+    <string name="collegues2">Colleague</string>
+    <string name="activities">Activities</string>
+    <string name="hint_situation_name">Name your situation</string>
+    <string name="select_icon">Select Icon:</string>
+    <string name="representative_called">representaTive Called</string>
+    <string name="waiting_for_call">WAITING For Call</string>
+    <string name="activity_group_other">Custom</string>
+    <string name="activity_group_people">People</string>
+    <string name="activity_group_activities">Activities</string>
+    <string name="activity_group_events">Events</string>
+    <string name="activity_group_food">Food</string>
+    <string name="activity_group_sleep">Sleep</string>
+    <string name="activity_group_drugs">Drugs</string>
+    <string name="activity_group_internet">Internet</string>
+    <string name="activity_section_emoji">Emoji</string>
+    <string name="activity_section_moving">Moving</string>
+    <string name="activity_section_smileysAndPeople"><![CDATA[Smileys & People]]></string>
+    <string name="activity_section_animalsAndNature"><![CDATA[Animals & Nature]]></string>
+    <string name="activity_section_foodAndDrink"><![CDATA[Food & Drink]]></string>
+    <string name="activity_section_sport">Sport</string>
+    <string name="activity_section_activity">Activity</string>
+    <string name="activity_section_travelAndPlaces"><![CDATA[Travel & Places]]></string>
+    <string name="activity_section_objects">Objects</string>
+    <string name="activity_section_symbols">Symbols</string>
+    <string name="activity_section_flags">Flags</string>
+    <string name="please_select_mood">Please select mood</string>
+    <string name="please_select_one">Please select one</string>
+    <string name="please_select_icon">Please select icon</string>
+    <string name="please_enter_name_situation">Please enter name of situation</string>
+    <string name="activity_group_recent">Recent</string>
+    <string name="add_situation_block">Add Situation Block</string>
+    <string name="entry_added_successfully">Journal saved</string>
+    <string name="entry_deleted_successfully">Deleted</string>
+    <string name="menu_journal">Journal</string>
+    <string name="title_journal">Journal</string>
+    <string name="title_preferences">Settings</string>
+    <string name="preference_mooditude">Mooditude</string>
+    <string name="auto_backup">Automatic Backup</string>
+    <string name="logout">Log out</string>
+    <string name="do_u_want_to_logout">Do you really want to log out?</string>
+    <string name="do_u_want_to_delete">Do you really want to delete user?</string>
+    <string name="yes">yes</string>
+    <string name="no">No</string>
+    <string name="journal">Journal</string>
+    <string name="see_all">See All</string>
+    <string name="write_something"><![CDATA[Write, what’s on your mind.<br/>Stumped? Tap here for a writing prompt]]></string>
+    <string name="title_journal_new">Write Something</string>
+    <string name="please_enter_text">Please enter your input</string>
+    <string name="word">%d word</string>
+    <string name="words">%d words</string>
+    <string name="missing_a_day">—  Missing a day  —</string>
+    <string name="missing_days">—  Missing %d days  —</string>
+    <string name="guided_journal">Guided Journal</string>
+    <string name="you">You</string>
+    <string name="anonymous">Anonymous</string>
+    <string name="last_activity">Last Activity:  %s</string>
+    <string name="text_comment_count">Comments (%d)</string>
+    <string name="text_comment">Comment</string>
+    <string name="what_is_in_mind">What’s on your mind?</string>
+    <string name="comment_added_successfully">Comment Posted</string>
+    <string name="post_added_successfully">Posted</string>
+    <string name="text_no_comments">Be the first to comment</string>
+    <string name="menu_reminder">Reminder</string>
+    <string name="menu_filter">Filter</string>
+    <string name="select">Select</string>
+    <string name="text_fresh">Fresh</string>
+    <string name="text_popular">Popular</string>
+    <string name="text_active">Active</string>
+    <string name="text_your_posts">Your Posts</string>
+    <string name="text_your_bookmarks">Your Bookmarks</string>
+    <string name="text_reported">Reported</string>
+    <string name="text_category">Category</string>
+    <string name="post_anonymously">Post anonymously</string>
+    <string name="text_add_post_title">Give your post a title...</string>
+    <string name="please_enter_title">Please add title of your post</string>
+    <string name="please_enter_detail">Please enter details of your post</string>
+    <string name="text_add_details">Add details</string>
+    <string name="text_edit">Edit</string>
+    <string name="text_report">Report</string>
+    <string name="text_delete">Delete</string>
+    <string name="filter_fresh">New</string>
+    <string name="why_post_removed">Why this post should be removed?</string>
+    <string name="post_edited_successfully">Edited</string>
+    <string name="are_you_sure_to_delete">Are you sure to delete this post?</string>
+    <string name="are_you_sure_to_delete_entry">Are you sure to delete?</string>
+    <string name="text_risk">Disorder Risks</string>
+    <string name="text_recommended_actions">Recommended Actions</string>
+    <string name="select_ur_age">Select your age</string>
+    <string name="select_gender">Select gender</string>
+    <string name="select_veteran_status1">Select veteran status</string>
+    <string name="select_veteran_status">Unknown</string>
+    <string name="lets_start">Let\'s start</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_delete">Delete</string>
+    <string name="not_enough_data_available">Not enough data available</string>
+    <string name="mood_entry_created">Mood logged</string>
+    <string name="terms_and_conditions"><![CDATA[By creating an account you agree with our<br/>
+    <a href=https://www.mooditude.app/privacy>Terms & Privacy Policy</a>]]></string>
+    <string name="comming_soon">Coming soon…</string>
+    <string name="daily_checkin"><![CDATA[❶<br/>Daily Check-In]]></string>
+    <string name="keep_track_of_feeling">Keep track of your feelings while we provide you with insights into your mood triggers and tools to calm you down.</string>
+    <string name="check_in">Check-In</string>
+    <string name="regulate_emotions"><![CDATA[❷<br/>Regulate Your<br/>Emotions]]></string>
+    <string name="our_overworked_minds">Our overworked minds need a little help to slow down. Mooditude gives you a space to contemplate and clarify your thoughts through guided journal prompts, meditations and CBT exercises.</string>
+    <string name="try_guided_journaling">Try guided journaling</string>
+    <string name="excellent">Excellent!</string>
+    <string name="do_you_feel_lighter">Do you feel a little lighter? Are your thoughts a bit brighter? Continue with daily activities, and you\'ll see the positive changes in your thoughts.</string>
+    <string name="thumbs_up">Thumbs Up 👍</string>
+    <string name="that_was_easy">That was easy! The more you track your mood in Mooditude, the more emotional triggers you will discover. Then, we\'ll help you learn strategies and routines to get them under control. </string>
+    <string name="delivers_results">Mooditude delivers real results</string>
+    <string name="designed_by"><![CDATA[Mooditude is designed by clinical psychologists using evidence-based Cognitive Behavioral Therapy (CBT) for measurable progress.<p/><p/>
+    It is as easy as 1,2,3.]]></string>
+    <string name="show_me_how">Show me how</string>
+    <string name="personalized_guidance"><![CDATA[❸<br/>Personalized Guidance]]></string>
+    <string name="make_promise_entry_post">I promise to take time for myself and work on improving the way i feel using Mooditude.</string>
+    <string name="guidance_desc"><![CDATA[Mooditude offers three ways to get personalized guidance:<p/></p>
+    ❶ One-to-one private consultation with a clinician, ❷ FREE Ask-the-Expert forum to get advice from experts, and ❸ A judgment-free community to give and get support from other Moodituders]]></string>
+    <string name="find_your_score">Find Your Wellbeing Score</string>
+    <string name="not_veteran">Not a veteran</string>
+    <string name="post_nine_veteran">Post 9/11 veteran</string>
+    <string name="pre_nine_veteran">Pre 9/11 veteran</string>
+    <string name="greeting_morning">Good Morning</string>
+    <string name="greeting_afternoon">Good Afternoon</string>
+    <string name="greeting_evening">Good Evening</string>
+    <string name="greeting_night">Good Night</string>
+
+
+    <!--Fresh chat-->
+    <string name="freshchat_file_provider_authority">com.health.mental.mooditude.provider</string>
+   <!-- <string name="freshchat_app_key" translatable="false">f459cdbc-93f3-4685-a8e1-0fa0eaa7ba9a</string>
+    <string name="freshchat_app_id" translatable="false">8b45c467-6b35-4f55-8337-6cf559ba1dcf</string>
+    <string name="freshchat_app_domain" translatable="false">msdk.in.freshchat.com</string>-->
+
+    <!--To remove freshchat branding &#45;&#45; Do not remove this line-->
+    <string name="freshchatDisableFrame" formatted="false" translatable="false">8c547d8f55f782260c164e1dd10a9ba2</string>
+    <string name="WELCOME_MSG_1">Make today amazing.</string>
+    <string name="WELCOME_MSG_2">Do something amazing today.</string>
+    <string name="WELCOME_MSG_3">Follow your heart.</string>
+    <string name="WELCOME_MSG_4">Make today amazing.</string>
+    <string name="WELCOME_MSG_5">Make it happen.</string>
+    <string name="WELCOME_MSG_6">Have faith.</string>
+    <string name="WELCOME_MSG_7">Be happy.</string>
+    <string name="WELCOME_MSG_8">Never give up.</string>
+    <string name="WELCOME_MSG_9">You are loved.</string>
+    <string name="WELCOME_MSG_10">Make today matter.</string>
+    <string name="WELCOME_MSG_11">Progress not perfection.</string>
+    <string name="WELCOME_MSG_12">Embrace life.</string>
+    <string name="WELCOME_MSG_13">Embrace change.</string>
+    <string name="WELCOME_MSG_14">Stay hopeful.</string>
+    <string name="WELCOME_MSG_15">Accept yourself.</string>
+    <string name="WELCOME_MSG_16">Gratitude matters.</string>
+    <string name="WELCOME_MSG_17">Inhale. Exhale.</string>
+    <string name="WELCOME_MSG_18">Stay strong.</string>
+    <string name="WELCOME_MSG_19">Breath.</string>
+    <string name="WELCOME_MSG_20">Dream big.</string>
+    <string name="WELCOME_MSG_21">Be awesome.</string>
+    <string name="WELCOME_MSG_22">Start living.</string>
+    <string name="WELCOME_MSG_23">You matter.</string>
+    <string name="WELCOME_MSG_24">Live a little.</string>
+    <string name="WELCOME_MSG_25">Be you.</string>
+    <string name="WELCOME_MSG_26">Conquer from within.</string>
+    <string name="WELCOME_MSG_27">Enjoy today.</string>
+    <string name="WELCOME_MSG_28">Trust the process.</string>
+    <string name="WELCOME_MSG_29">Smile.</string>
+    <string name="WELCOME_MSG_30">Be you!</string>
+    <string name="text_goal">goal</string>
+    <string name="text_profile">Profile</string>
+    <string name="join_date">Join Date: %s</string>
+    <string name="challenges">challenges</string>
+    <string name="select_goal">Select Goal</string>
+    <string name="select_challenge">Select Challenge</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="chat_with_us">Chat with Us</string>
+    <string name="text_about">About</string>
+    <string name="enter_password">Please enter your password to delete your account.</string>
+    <string name="all_data_deleted">All your data from this device and our servers will be permanently deleted.</string>
+    <string name="confirm_deletion">Please confirm that you want to delete your account.</string>
+    <string name="bitesized_awareness">Bite-sized Mental Wellness Activities —Anytime, Anywhere.</string>
+    <string name="evidence_based_approach">An evidence-based approach that empowers you to build resilience on-the-go through proactively learning about and improving your mental wellness.</string>
+    <string name="progress_tracking">Progress Tracking</string>
+    <string name="understand_risk">Understand your risk of mental illness and track your progress.</string>
+    <string name="self_care">Self-care Activities</string>
+    <string name="improve_your">Improve your mental wellness with a library of over 800 mins of activities.</string>
+    <string name="community_support">Community Support</string>
+    <string name="engage_with_others">Engage with other Moodituders. Give and get support from them.</string>
+    <string name="therapist_connection">Therapist’s Connection</string>
+    <string name="find_right">Find the right therapist and share data with them for a productive therapy session.</string>
+    <string name="have_question">Have a question, feedback, or want to be a part of Mooditude family? Contact us.</string>
+    <string name="disclaimer_aboout"><![CDATA[Please remember that the diagnosis and treatment of depression and other psychiatric disorders requires trained medical professionals. The information provided within the app or on the associated web sites or links to other information are to be used for educational purposes only. It should NOT be used as a substitute for seeking professional care for the diagnosis and treatment of any mental/psychiatric disorders.  Our information is designed to be used for peer support and should be used in conjunction with professional care.<p/><p/>
+      You may want to contact your local crisis hotline, community mental health center, private practitioner or clergy. If you are in crisis, call 1-800-273-TALK (1-800-273-8255) the National Suicide Prevention Lifeline is there to help!]]></string>
+    <string name="privacy">Privacy</string>
+    <string name="terms">Terms</string>
+    <string name="send_email">Send Email</string>
+    <string name="private_and_secure"><![CDATA[Mooditude is Private & Secure]]></string>
+    <string name="private_and_secure_desc">We don\'t share your personal information. All your posts and related data stay on your device.</string>
+
+
+</resources>

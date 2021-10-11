@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--Each item id should be same as in the nav_graph fragment id-->
+    <group
+        android:id="@+id/grp1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menud_journal"
+            android:checkable="true"
+            android:icon="@drawable/ic_journal_selected"
+            android:title="@string/menu_journal" />
+
+        <item
+            android:id="@+id/menud_settings"
+            android:checkable="true"
+            android:icon="@drawable/ic_settings"
+            android:title="@string/menu_settings" />
+    </group>
+
+    <group
+        android:id="@+id/grp2"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/menu_help"
+            android:checkable="true"
+            android:title="@string/menu_help"
+            app:actionLayout="@layout/view_badge"
+            app:showAsAction="always" />
+
+        <item
+            android:id="@+id/menu_about"
+            android:checkable="true"
+            android:title="@string/text_about" />
+    </group>
+</menu>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        style="@style/BottomSheetItem"
+        android:text="@string/select"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:fontFamily="@font/circularstd_black"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_fresh"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_fresh"
+        android:layout_marginStart="@dimen/_20sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_popular"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_popular"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_fresh"
+        app:layout_constraintTop_toBottomOf="@+id/menu_fresh" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_active"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_active"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_fresh"
+        app:layout_constraintTop_toBottomOf="@+id/menu_popular" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_your_posts"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_your_posts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_fresh"
+        app:layout_constraintTop_toBottomOf="@+id/menu_active" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_your_bookmark"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_your_bookmarks"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_fresh"
+        app:layout_constraintTop_toBottomOf="@+id/menu_your_posts" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_reported"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_reported"
+        android:visibility="gone"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_fresh"
+        app:layout_constraintTop_toBottomOf="@+id/menu_your_bookmark" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="fab_margin">16dp</dimen>
+
+    <dimen name="registration_page_margin">@dimen/_22sdp</dimen>
+    <dimen name="registration_title_margin">@dimen/_60sdp</dimen>
+    <dimen name="list_item_spacing_half">8dp</dimen>
+    <dimen name="forward_button_size">@dimen/_38sdp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="design_bottom_navigation_height" tools:override="true">@dimen/_50sdp</dimen>
+    <dimen name="design_bottom_navigation_margin" tools:override="true">@dimen/_10sdp</dimen>
+</resources>

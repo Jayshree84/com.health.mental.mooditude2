@@ -1,0 +1,87 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_50sdp"
+    android:animateLayoutChanges="true"
+    android:paddingTop="@dimen/_15sdp"
+    tools:context=".activity.ui.care.MainFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_request_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/layout_make_request"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_request_container"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:background="@drawable/white_corner_bg"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="@dimen/_15sdp"
+        android:visibility="visible">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:adjustViewBounds="true"
+            app:srcCompat="@drawable/ic_strength" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            style="@style/TitleTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30sdp"
+            android:layout_marginEnd="@dimen/_30sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:gravity="center"
+            android:text="@string/seeking_help" />
+
+        <TextView
+            android:id="@+id/tv_desc"
+            style="@style/DescTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/seeking_help_desc"
+            android:textColor="@color/primaryColor" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_need_therapist"
+            style="@style/RegBtnStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:text="@string/find_my_therapist" />
+
+        <TextView
+            android:id="@+id/tv_caption"
+            style="@style/DescCaptionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginEnd="@dimen/_15sdp"
+            android:gravity="center"
+            android:lineSpacingMultiplier="1.2"
+            android:text="@string/seeking_help_desc2"
+            android:textColor="@color/secondaryColor" />
+    </LinearLayout>
+</RelativeLayout>

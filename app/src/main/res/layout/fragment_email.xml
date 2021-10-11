@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white_corner_bg"
+    android:padding="@dimen/_15sdp"
+    tools:context=".fragment.registration.EmailFragment">
+
+    <TextView
+        android:id="@+id/tv_got_code"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:text="@string/got_code"
+
+        />
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/code_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_got_code"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:errorEnabled="false"
+        app:errorTextAppearance="@style/ErrorText"
+        app:hintEnabled="false">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_promo_code"
+            style="@style/RegEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_promo_code"
+            android:imeOptions="actionDone"
+            android:inputType="text" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tv_error_info"
+        style="@style/ErrorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/code_layout"
+        android:layout_alignStart="@id/code_layout"
+        android:layout_alignEnd="@id/code_layout"
+        android:text="@string/you_deserve"
+        android:visibility="visible" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_confirm"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_error_info"
+        android:layout_marginTop="@dimen/_25sdp"
+        android:text="@string/confirm" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_dont_have_code"
+        style="@style/RegBtnStyle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/btn_confirm"
+        android:layout_marginStart="@dimen/_25sdp"
+        android:layout_toEndOf="@id/btn_confirm"
+        android:text="@string/skip" />
+
+
+</RelativeLayout>

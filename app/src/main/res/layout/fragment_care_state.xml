@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:padding="@dimen/_20sdp"
+    tools:context=".activity.ui.care.StateFragment">
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/info_corner_bg"
+        android:fontFamily="@font/circularstd_book"
+        android:lineSpacingMultiplier="1.2"
+        android:padding="@dimen/_15sdp"
+        android:text="@string/us_laws"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_state"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_info"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:text="@string/text_state"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_state_preference"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_state"
+        android:fontFamily="@font/circularstd_book"
+        android:text="@string/no_preference"
+        android:paddingTop="@dimen/_10sdp"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="bold" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_state_preference"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_50sdp"
+        android:text="@string/continue_text" />
+
+
+</RelativeLayout>

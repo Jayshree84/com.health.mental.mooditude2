@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_50sdp"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    tools:context=".activity.ui.home.MainFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_20sdp">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_crown"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:src="@drawable/ic_crown_badge" />
+
+        <TextView
+            android:id="@+id/tv_crown"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/iv_crown"
+            android:layout_gravity="top|end"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:background="@drawable/badge_bg"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_star"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignTop="@id/iv_crown"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_toStartOf="@id/iv_crown"
+            android:src="@drawable/ic_start_badge" />
+
+        <TextView
+            android:id="@+id/tv_star"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/iv_star"
+            android:layout_gravity="top|end"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:background="@drawable/badge_bg"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_check"
+            android:layout_width="@dimen/_30sdp"
+            android:layout_height="@dimen/_30sdp"
+            android:layout_alignTop="@id/iv_crown"
+            android:layout_marginEnd="@dimen/_20sdp"
+            android:layout_toStartOf="@id/iv_star"
+            android:src="@drawable/ic_done_badge" />
+
+        <TextView
+            android:id="@+id/tv_check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@id/iv_check"
+            android:layout_gravity="top|end"
+            android:layout_marginStart="@dimen/_20sdp"
+            android:background="@drawable/badge_bg"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="bold" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/iv_photo"
+            android:layout_width="@dimen/_60sdp"
+            android:layout_height="@dimen/_60sdp"
+            android:layout_below="@id/iv_crown"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:adjustViewBounds="false"
+            android:padding="@dimen/_3sdp"
+            android:scaleType="centerCrop"
+            app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+            app:srcCompat="@drawable/ic_addprofileimage"
+            app:strokeColor="@color/brand_yellow"
+            app:strokeWidth="2dp" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_photo"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_toEndOf="@id/iv_photo"
+            android:fontFamily="@font/circularstd_black"
+            android:text="@string/text_name"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_15ssp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_greeting"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_name"
+            android:layout_alignStart="@id/tv_name"
+            android:fontFamily="@font/circularstd_black"
+            android:text="@string/text_name"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_20ssp"
+            android:textStyle="normal" />
+
+        <TextView
+            android:id="@+id/tv_goal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_greeting"
+            android:layout_alignStart="@id/tv_name"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:layout_marginBottom="@dimen/_15sdp"
+            android:fontFamily="@font/circularstd_book"
+            android:text="@string/goal_text"
+            android:textColor="@color/secondaryColor"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/layout_feeling"
+        layout="@layout/widget_home_feeling" />
+
+    <include
+        android:id="@+id/layout_add_assessment"
+        layout="@layout/widget_home_add_assessment" />
+
+</LinearLayout>

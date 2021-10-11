@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    tools:context=".activity.ui.care.MainFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/is_there_anything" />
+
+    <TextView
+        android:id="@+id/tv_message"
+        style="@style/DescCaptionTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/text_message"
+        android:textAllCaps="true" />
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_message"
+        style="@style/RegEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:gravity="start"
+        android:hint="@string/hint_request_comment"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:lineSpacingMultiplier="1.2"
+        android:minLines="8"
+        android:textColorHint="@color/tertaryColor"
+        android:textSize="@dimen/_14ssp">
+
+        <requestFocus />
+    </androidx.appcompat.widget.AppCompatEditText>
+
+</LinearLayout>

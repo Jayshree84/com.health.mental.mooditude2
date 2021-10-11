@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical"
+    tools:context=".activity.MAssessmentFlowDialog">
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_assessment" />
+
+    <TextView
+        android:id="@+id/tv_total_quest"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/toolbar"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="normal" />
+
+    <FrameLayout
+        android:id="@+id/layout_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/tv_total_quest"
+        android:layout_marginBottom="@dimen/_10sdp" />
+
+
+</RelativeLayout>

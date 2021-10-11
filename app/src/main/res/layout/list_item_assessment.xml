@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants"
+    android:background="@drawable/selectable_bg"
+    android:layout_margin="@dimen/_10sdp"
+    android:gravity="center_vertical"
+    android:padding="@dimen/_12sdp">
+
+    <com.health.mental.mooditude.custom.Circle
+        android:id="@+id/circle_score"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        app:circleColor="@color/error_red"
+        android:layout_marginEnd="@dimen/_15sdp"
+         />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/circle_score"
+        android:layout_alignBottom="@id/circle_score"
+        android:layout_alignStart="@id/circle_score"
+        android:layout_alignEnd="@id/circle_score"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center"
+        android:text="108"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="date"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp"
+        android:layout_alignTop="@id/circle_score"
+        android:layout_toEndOf="@id/circle_score"
+
+        android:textStyle="normal" />
+    <TextView
+        android:id="@+id/tv_risk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_date"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/high_risk"
+        android:textColor="@color/primaryColor"
+        android:layout_alignStart="@id/tv_date"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/ic_btn_next"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        app:tint="@color/tertaryColor"
+        />
+</RelativeLayout>

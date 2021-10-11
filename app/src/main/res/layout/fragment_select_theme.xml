@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    tools:context=".fragment.onboarding.SelectThemeFragment">
+
+    <com.health.mental.mooditude.custom.Circle
+        android:id="@+id/selection"
+        android:layout_width="@dimen/_30sdp"
+        android:layout_height="@dimen/_30sdp"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        app:circleColor="@color/primaryColor" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/selection"
+        android:layout_alignStart="@id/tv_title"
+        android:layout_alignEnd="@id/tv_title"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:text="@string/goal_desc"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_margin="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/goal_title"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="normal" />
+
+
+    <GridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/btn_continue"
+        android:layout_below="@id/tv_title"
+        android:layout_margin="@dimen/_15sdp"
+        android:gravity="center"
+        android:horizontalSpacing="@dimen/_10sdp"
+        android:numColumns="4"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="@dimen/_10sdp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/ic_btn_bg"
+        android:gravity="center"
+        android:text="@string/continue_text"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11ssp" />
+
+
+</RelativeLayout>

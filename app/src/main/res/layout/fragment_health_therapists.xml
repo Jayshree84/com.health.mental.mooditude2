@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:overScrollMode="never"
+    android:padding="@dimen/_20sdp"
+    android:scrollbars="none"
+    tools:context=".fragment.requesttherapist.HealthTherapistsFragment">
+
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_therapists"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/group_therapists" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_therapists"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:gravity="center"
+        android:text="@string/we_have_done" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/DescTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="@dimen/_25sdp"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/we_have_done_desc"
+        android:textColor="@color/primaryColor" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_therapist_check"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/therapist_check" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        style="@style/DescTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_therapist_check"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:background="@drawable/info_corner_bg"
+        android:padding="@dimen/_10sdp"
+        android:text="@string/enjoy_working"
+        android:textColor="@color/primaryColor" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_need_therapist"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_info"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:text="@string/continue_text" />
+
+</RelativeLayout>

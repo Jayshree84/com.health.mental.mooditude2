@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/brand_yellow"
+    android:orientation="vertical">
+
+    <include
+        layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/_20sdp">
+
+            <ImageView
+                android:id="@+id/iv_logo"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_75sdp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:adjustViewBounds="true"
+                app:srcCompat="@drawable/ic_group_only_image" />
+
+            <TextView
+                android:id="@+id/tv_moodytude"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/circularstd_black"
+                android:gravity="center"
+                android:text="@string/mooditude"
+                android:textAllCaps="true"
+                android:textColor="@color/boarding_text"
+                android:textSize="@dimen/_17ssp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_5sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:gravity="center"
+                android:text="version"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_bitesized"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/_20sdp"
+                android:fontFamily="@font/circularstd_black"
+                android:gravity="center"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/bitesized_awareness"
+                android:textColor="@color/boarding_text"
+                android:textSize="@dimen/_18ssp" />
+
+            <TextView
+                android:id="@+id/tv_evidence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/evidence_based_approach"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_tracking"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:fontFamily="@font/circularstd_black"
+                android:text="@string/progress_tracking"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_understand_risk"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/understand_risk"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_selfcare"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:fontFamily="@font/circularstd_black"
+                android:text="@string/self_care"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_improve_your"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/improve_your"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_community_support"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:fontFamily="@font/circularstd_black"
+                android:text="@string/community_support"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_engage"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/engage_with_others"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_therapist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_2sdp"
+                android:fontFamily="@font/circularstd_black"
+                android:text="@string/therapist_connection"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_find"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/find_right"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_13ssp"
+                android:textStyle="normal" />
+
+
+            <TextView
+                android:id="@+id/tv_question"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/have_question"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_contact_email"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:background="@drawable/ic_contact_email" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_contact_link"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:background="@drawable/ic_contact_link" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_contact_facebook"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:background="@drawable/ic_contact_facebook" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/btn_contact_insta"
+                    android:layout_width="@dimen/_40sdp"
+                    android:layout_height="@dimen/_40sdp"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:background="@drawable/ic_contact_instagram" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:layout_marginBottom="@dimen/_15sdp"
+                android:gravity="center_horizontal"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/tv_privacy"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:fontFamily="@font/circularstd_book"
+                    android:text="@string/privacy"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="normal" />
+
+                <TextView
+                    android:id="@+id/tv_terms"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_20sdp"
+                    android:fontFamily="@font/circularstd_book"
+                    android:text="@string/terms"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="@dimen/_14ssp"
+                    android:textStyle="normal" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tv_disclaimer"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_50sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:fontFamily="@font/circularstd_black"
+                android:text="@string/disclaimer"
+                android:textColor="@color/secondaryColor"
+                android:textSize="@dimen/_15ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_disclaimer_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/_50sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/disclaimer_aboout"
+                android:textColor="@color/secondaryColor"
+                android:textSize="@dimen/_12ssp"
+                android:textStyle="normal" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

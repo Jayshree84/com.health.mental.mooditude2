@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_step_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:ellipsize="end"
+        android:fontFamily="@font/circularstd_book"
+        android:maxLines="1"
+        android:textStyle="bold"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_13ssp" />
+
+    <TextView
+        android:id="@+id/tv_step_input"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:fontFamily="@font/circularstd_book"
+        android:maxLines="2"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+</LinearLayout>

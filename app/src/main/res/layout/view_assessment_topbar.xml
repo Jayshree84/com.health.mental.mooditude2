@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:paddingBottom="@dimen/_20sdp"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:padding="0dp"
+        android:text="@string/high_risk"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/circle_score"
+        android:layout_width="@dimen/_70sdp"
+        android:layout_height="@dimen/_70sdp"
+        android:layout_below="@id/tv_date"
+        android:layout_centerHorizontal="true"
+        app:circleColor="@color/brand_yellow"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/_3sdp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:srcCompat="@color/error_red"
+        app:strokeColor="@color/brand_yellow"
+        app:strokeWidth="5dp"
+        />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/circle_score"
+        android:layout_alignBottom="@id/circle_score"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center"
+        android:text="108"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_risk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle_score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/high_risk"
+        android:textAllCaps="true"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_risk_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_risk"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/high_risk_desc"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_risk_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_risk_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:srcCompat="@drawable/ic_risk_scale" />
+
+</RelativeLayout>

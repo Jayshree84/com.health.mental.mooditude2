@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <!-- Customize color of navigation drawer icon and back arrow -->
+        <item name="colorControlNormal">@color/boarding_text</item>
+        <item name="fontFamily">@font/circularstd_black</item>
+    </style>
+
+    <style name="TitleBarTextAppearance" parent="android:TextAppearance">
+        <item name="android:fontFamily">@font/circularstd_black</item>
+        <item name="android:textSize">@dimen/_18ssp</item>
+    </style>
+
+    <style name="MyMaterialTheme.Base" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="windowNoTitle">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.MaterialComponents.Dark.ActionBar" >
+
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.MaterialComponents.Light" />
+
+    <!-- Base application theme -->
+    <style name="AppTheme" parent="MyMaterialTheme.Base">
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFullscreen">false</item>
+        <item name="android:statusBarColor" tools:targetApi="lollipop">@color/page_background
+        </item>
+        <!--<item name="android:statusBarColor" tools:targetApi="l">@color/black_main</item>-->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+        <item name="android:windowActivityTransitions">true</item>
+        <item name="android:windowContentTransitions">true</item>
+        <!--For navigation drawer menu item height-->
+        <item name="listPreferredItemHeightSmall">@dimen/_35sdp</item>
+    </style>
+
+    <!-- Base application theme -->
+    <style name="FullScreenTheme" parent="AppTheme">
+    <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="HomePageTheme" parent="AppTheme">
+        <item name="colorPrimary">@color/primaryColor</item>
+        <item name="colorPrimaryDark">@color/black</item>
+        <item name="colorAccent">@color/btn_green</item>
+        <item name="colorSecondary">@color/secondaryColor</item>
+
+        <item name="drawerArrowStyle">@style/MyDrawerArrowToggleStyle</item>
+        <item name="windowActionBarOverlay">true</item>
+        <item name="android:windowActionBarOverlay">true</item>
+    </style>
+
+    <style name="MyDrawerArrowToggleStyle" parent="Widget.AppCompat.DrawerArrowToggle">
+        <item name="color">@color/primaryColor</item>
+    </style>
+
+
+    <!--<style name="FullscreenActionBarStyle" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/white</item>
+    </style>-->
+
+    <!-- Base application theme -->
+
+    <!--<style name="AppTheme" parent="MyMaterialTheme.Base">
+        &lt;!&ndash; Customize your theme here. &ndash;&gt;
+        <item name="android:windowActionBarOverlay">true</item>
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowFullscreen">false</item>
+
+        <item name="android:statusBarColor" tools:targetApi="l">@color/page_background</item>&ndash;&gt;
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowLightStatusBar" tools:targetApi="m">true</item>
+
+        <item name="android:windowDisablePreview">true</item>
+        &lt;!&ndash;For navigation drawer menu item height&ndash;&gt;
+        <item name="listPreferredItemHeightSmall">@dimen/_25sdp</item>
+        <item name="android:windowContentTransitions">true</item>
+
+        <item name="android:fastScrollOverlayPosition">atThumb</item>
+        <item name="android:windowActivityTransitions">true</item>
+    </style>-->
+
+    <style name="RegEditTextStyle" parent="android:Widget.EditText">
+        <item name="android:textColor">@color/edit_text</item>
+        <item name="android:textColorHint">@color/edit_text_hint</item>
+        <item name="android:textCursorDrawable">@drawable/edittext_cursor</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Subhead</item>
+        <item name="colorControlNormal">@color/edit_text_bg</item>
+        <item name="colorControlActivated">@color/edit_text_bg</item>
+        <item name="colorControlHighlight">@color/edit_text_bg</item>
+        <item name="android:textColorHighlight">@color/btn_green</item>
+        <item name="android:paddingStart">@dimen/_10sdp</item>
+        <item name="android:paddingEnd">@dimen/_10sdp</item>
+        <item name="android:paddingTop">@dimen/_12sdp</item>
+        <item name="android:paddingBottom">@dimen/_12sdp</item>
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:fontFamily">@font/circularstd_book</item>
+    </style>
+
+
+    <style name="roundedImageViewRounded">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+
+    <style name="ErrorText" parent="Widget.AppCompat.TextView">
+        <item name="android:fontFamily">@font/circularstd_book</item>
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="RegBtnStyle" parent="Widget.AppCompat.Button">
+        <item name="android:paddingStart">@dimen/_18sdp</item>
+        <item name="android:paddingEnd">@dimen/_18sdp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:background">@drawable/ic_btn_bg</item>
+        <item name="android:elevation">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:enabled">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/circularstd_book</item>
+
+    </style>
+
+    <style name="RegBtnStyle2" parent="Widget.AppCompat.Button">
+        <item name="android:paddingStart">@dimen/_18sdp</item>
+        <item name="android:paddingEnd">@dimen/_18sdp</item>
+        <item name="android:paddingTop">@dimen/_8sdp</item>
+        <item name="android:paddingBottom">@dimen/_8sdp</item>
+        <item name="android:minHeight">0dp</item>
+        <item name="android:minWidth">0dp</item>
+        <item name="android:stateListAnimator">@null</item>
+        <item name="android:textAllCaps">true</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textSize">@dimen/_11ssp</item>
+        <item name="android:background">@drawable/ic_btn_light_border</item>
+        <item name="android:enabled">true</item>
+        <item name="android:gravity">center</item>
+        <item name="android:fontFamily">@font/circularstd_book</item>
+
+    </style>
+
+    <!--<style name="Error_Text">
+        <item name="android:textColor">@color/error_red</item>
+        <item name="android:textAppearance">@style/Base.TextAppearance.AppCompat.Caption</item>
+        <item name="android:fontFamily">@font/circularstd_black</item>
+        <item name="android:drawablePadding">@dimen/_3sdp</item>
+        <item name="android:gravity">center_vertical</item>
+    </style>-->
+
+    <style name="OptionButtonStyle">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/radio_flat_selector</item>
+        <item name="android:button">@null</item>
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+
+    <style name="DialogStyle2" parent="Theme.AppCompat.Light.Dialog">
+        <!--No title-->
+        <item name="windowNoTitle">true</item>
+
+        <!--Background transparency -->
+        <item name="android:windowIsTranslucent">true</item>
+        <!--Is there any coverage-->
+        <item name="android:windowContentOverlay">@null</item>
+        <!--whether floating-->
+        <item name="android:windowIsFloating">true</item>
+        <!--Border-->
+        <item name="android:windowFrame">@null</item>
+        <!--Background: Transparent -->
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <!--dialog whether the background of the entire screen has a barrier layer -->
+        <item name="android:backgroundDimEnabled">false</item>
+        <!--Animation-->
+        <!--<item name="android:windowAnimationStyle">@style/normalDialogAnim</item>-->
+    </style>
+
+    <style name="DialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:listChoiceIndicatorMultiple">@drawable/radio_flat_selector</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:textColorPrimary">@color/primaryColor</item>
+        <item name="android:colorAccent" tools:targetApi="lollipop">@color/brand_yellow</item>
+    </style>
+
+    <style name="BottomNavigationText" parent="@android:style/TextAppearance">
+        <item name="android:fontFamily">@font/circularstd_book</item>
+        <item name="android:textColor">@drawable/bottom_selection_color</item>
+        <item name="android:textSize">@dimen/_9ssp</item>
+    </style>
+
+    <style name="BottomSheetItem">
+        <item name="android:textSize">@dimen/_15ssp</item>
+        <item name="android:drawablePadding">@dimen/_10sdp</item>
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:padding">@dimen/_10sdp</item>
+        <item name="fontFamily">@font/circularstd_book</item>
+        <item name="android:textColor">@color/primaryColor</item>
+    </style>
+
+    <style name="AutoCompleteTextViewDropDown">
+        <item name="android:clickable">false</item>
+        <item name="android:cursorVisible">false</item>
+        <item name="android:focusable">false</item>
+        <item name="android:focusableInTouchMode">false</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <style name="TitleTextStyle">
+        <item name="android:textColor">@color/primaryColor</item>
+        <item name="android:fontFamily">@font/circularstd_black</item>
+        <item name="android:textSize">@dimen/_20ssp</item>
+        <item name="android:lineSpacingMultiplier">1.2</item>
+    </style>
+
+    <style name="DescTextStyle">
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:fontFamily">@font/circularstd_book</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Body1</item>
+    </style>
+
+    <style name="DescCaptionTextStyle">
+        <item name="android:textColor">@color/secondaryColor</item>
+        <item name="android:fontFamily">@font/circularstd_book</item>
+        <item name="android:textAppearance">@style/TextAppearance.AppCompat.Caption</item>
+    </style>
+
+    <!-- RatingBar -->
+    <style name="RatingBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/secondaryColor</item>
+        <item name="colorControlActivated">@color/brand_yellow</item>
+    </style>
+</resources>

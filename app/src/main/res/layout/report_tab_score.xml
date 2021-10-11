@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tv_diagnosis_risk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:fontFamily="@font/circularstd_black"
+            android:text="@string/diagnosis_risk"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_18ssp" />
+
+        <include
+            android:id="@+id/diagnosis_dep"
+            layout="@layout/view_diagnosis_risk" />
+
+        <include
+            android:id="@+id/diagnosis_anxiety"
+            layout="@layout/view_diagnosis_risk" />
+
+        <include
+            android:id="@+id/diagnosis_ptsd"
+            layout="@layout/view_diagnosis_risk" />
+
+        <include
+            android:id="@+id/diagnosis_bipolar"
+            layout="@layout/view_diagnosis_risk" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tv_functional_impairment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:fontFamily="@font/circularstd_black"
+            android:text="@string/functional_impairments"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_18ssp" />
+
+        <include
+            android:id="@+id/question5"
+            layout="@layout/view_report_question" />
+
+        <include
+            android:id="@+id/question26"
+            layout="@layout/view_report_question" />
+
+        <include
+            android:id="@+id/question27"
+            layout="@layout/view_report_question" />
+
+        <include
+            android:id="@+id/question28"
+            layout="@layout/view_report_question" />
+
+        <include
+            android:id="@+id/question29"
+            layout="@layout/view_report_question" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical"
+        android:paddingStart="@dimen/_10sdp"
+        android:paddingTop="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_10sdp"
+        android:paddingBottom="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tv_questions"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:fontFamily="@font/circularstd_black"
+            android:text="@string/questions"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_18ssp" />
+
+        <include
+            android:id="@+id/question1"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question2"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question3"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question4"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question6"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question7"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question8"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question9"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question10"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question11"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question12"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question13"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question14"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question15"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question16"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question17"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question18"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question19"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question20"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question21"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question22"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question23"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question24"
+            layout="@layout/view_report_question2" />
+
+        <include
+            android:id="@+id/question25"
+            layout="@layout/view_report_question2" />
+    </LinearLayout>
+</LinearLayout>

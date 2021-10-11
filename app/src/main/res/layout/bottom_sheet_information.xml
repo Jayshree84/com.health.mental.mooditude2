@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_corner_bg"
+    android:paddingStart="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_20sdp">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_close"
+        android:layout_width="@dimen/_46sdp"
+        android:layout_height="@dimen/_46sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:background="?attr/selectableItemBackground"
+        android:padding="@dimen/_10sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        app:srcCompat="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_close"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/science_behind_assessment"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/science_desc"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_desc2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/m3_checklist"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_10ssp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>

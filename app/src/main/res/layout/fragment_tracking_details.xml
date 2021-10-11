@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    tools:context=".activity.ui.tracking.FullReportFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_15ssp">
+
+            <include
+                android:id="@+id/assessment_topbar"
+                layout="@layout/view_assessment_topbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"/>
+
+            <LinearLayout
+                android:id="@+id/layout_tab_texts"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/assessment_topbar"
+                android:background="@color/home_background"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/tv_tab_report"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="@font/circularstd_book"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/report"
+                    android:textAllCaps="true"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/tv_tab_score"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="?attr/selectableItemBackground"
+                    android:fontFamily="@font/circularstd_book"
+                    android:gravity="center"
+                    android:paddingStart="@dimen/_5sdp"
+                    android:paddingTop="@dimen/_10sdp"
+                    android:paddingEnd="@dimen/_5sdp"
+                    android:paddingBottom="@dimen/_10sdp"
+                    android:text="@string/score"
+                    android:textAllCaps="true"
+                    android:textColor="@color/primaryColor"
+                    android:textSize="@dimen/_12ssp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layout_tab_seperator"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/home_background"
+                android:layout_below="@id/layout_tab_texts"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <View
+                    android:id="@+id/seperator_report"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:background="@color/brand_yellow" />
+
+                <View
+                    android:id="@+id/seperator_score"
+                    android:layout_width="0dp"
+                    android:layout_height="@dimen/_4sdp"
+                    android:layout_weight="1"
+                    android:background="@color/brand_yellow" />
+
+
+            </LinearLayout>
+
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/layout_tab_seperator"
+                android:paddingBottom="@dimen/_50sdp">
+
+                <include
+                    android:id="@+id/tab_report"
+                    layout="@layout/report_tab_report" />
+
+                <include
+                    android:id="@+id/tab_score"
+                    android:visibility="gone"
+                    layout="@layout/report_tab_score" />
+
+
+            </FrameLayout>
+
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

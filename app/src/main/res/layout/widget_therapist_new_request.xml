@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="@dimen/_15sdp"
+    android:background="@drawable/white_corner_bg"
+    android:padding="@dimen/_15sdp">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_logo"
+        android:layout_width="@dimen/_40sdp"
+        android:layout_height="@dimen/_40sdp"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/ic_therapist_request" />
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_logo"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/received_your_request"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/DescTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/member_of_provider_will_contact_you"
+        android:textColor="@color/primaryColor" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_desc"
+        android:fontFamily="@font/circularstd_book"
+        android:text="@string/three_mins"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_10ssp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_had_call"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_date"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/representative_called" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_waiting_for_call"
+        style="@style/RegBtnStyle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_had_call"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:text="@string/waiting_for_call" />
+
+</RelativeLayout>

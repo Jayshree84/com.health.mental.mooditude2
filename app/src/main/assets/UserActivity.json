@@ -1,0 +1,371 @@
+[
+    {
+        "activityId": "UserActivity_2",
+        "deleted": 0,
+        "group": "people",
+        "imageName": "",
+        "synced": 0,
+        "title": "Alone",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_People_2",
+        "deleted": 0,
+        "group": "people",
+        "imageName": "",
+        "synced": 0,
+        "title": "Partner",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_People_3",
+        "deleted": 0,
+        "group": "people",
+        "imageName": "",
+        "synced": 0,
+        "title": "Family",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_3",
+        "deleted": 0,
+        "group": "people",
+        "imageName": "",
+        "synced": 0,
+        "title": "Friends",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_People_6",
+        "deleted": 0,
+        "group": "people",
+        "imageName": "",
+        "synced": 0,
+        "title": "Colleagues",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_1",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Home",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_11",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Office",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_3",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "School",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_8",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Mall",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_9",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Road",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_6",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Outdoors",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Events_7",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Travel",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_5",
+        "deleted": 0,
+        "group": "food",
+        "imageName": "",
+        "synced": 0,
+        "title": "Binging",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_6",
+        "deleted": 0,
+        "group": "food",
+        "imageName": "",
+        "synced": 0,
+        "title": "Dieting",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_1",
+        "deleted": 0,
+        "group": "food",
+        "imageName": "",
+        "synced": 0,
+        "title": "Junk Food",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_3",
+        "deleted": 0,
+        "group": "food",
+        "imageName": "",
+        "synced": 0,
+        "title": "Veggie",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_4",
+        "deleted": 0,
+        "group": "food",
+        "imageName": "",
+        "synced": 0,
+        "title": "Meat",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Sleep_1",
+        "deleted": 0,
+        "group": "sleep",
+        "imageName": "",
+        "synced": 0,
+        "title": "Good Sleep",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Sleep_2",
+        "deleted": 0,
+        "group": "sleep",
+        "imageName": "",
+        "synced": 0,
+        "title": "Bad Sleep",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Sleep_3",
+        "deleted": 0,
+        "group": "sleep",
+        "imageName": "",
+        "synced": 0,
+        "title": "Insomnia",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Drugs_4",
+        "deleted": 0,
+        "group": "drugs",
+        "imageName": "",
+        "synced": 0,
+        "title": "Marijuana",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Drugs_2",
+        "deleted": 0,
+        "group": "drugs",
+        "imageName": "",
+        "synced": 0,
+        "title": "Alcohol",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Drugs_3",
+        "deleted": 0,
+        "group": "drugs",
+        "imageName": "",
+        "synced": 0,
+        "title": "Tobacco",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Drugs_1",
+        "deleted": 0,
+        "group": "drugs",
+        "imageName": "",
+        "synced": 0,
+        "title": "Caffeine",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_9",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Health",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_1",
+        "deleted": 0,
+        "group": "events",
+        "imageName": "",
+        "synced": 0,
+        "title": "Work",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Activities_4",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "News",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Activities_5",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Finances",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_7",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Exercise",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_12",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Chores",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_5",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Date",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Food_8",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Sedentary",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Activities_1",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Music",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_6",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Relax",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_8",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Party",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_9",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Movie",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_10",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Reading",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_11",
+        "deleted": 0,
+        "group": "activities",
+        "imageName": "",
+        "synced": 0,
+        "title": "Shopping",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Internet_1",
+        "deleted": 0,
+        "group": "internet",
+        "imageName": "",
+        "synced": 0,
+        "title": "Social Media",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Internet_2",
+        "deleted": 0,
+        "group": "internet",
+        "imageName": "",
+        "synced": 0,
+        "title": "Gaming",
+        "userCreated": 1
+    },
+    {
+        "activityId": "UserActivity_Internet_3",
+        "deleted": 0,
+        "group": "internet",
+        "imageName": "",
+        "synced": 0,
+        "title": "Streaming",
+        "userCreated": 1
+    }
+]

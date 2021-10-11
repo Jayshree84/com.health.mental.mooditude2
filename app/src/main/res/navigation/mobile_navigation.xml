@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home"
+    >
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.health.mental.mooditude.activity.ui.home.HomeFragment"
+        android:label="@string/pagetitle_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_community"
+        android:name="com.health.mental.mooditude.activity.ui.community.CommunityFragment"
+        android:label="@string/pagetitle_community"
+        tools:layout="@layout/fragment_community" />
+
+    <fragment
+        android:id="@+id/navigation_selfcare"
+        android:name="com.health.mental.mooditude.activity.ui.selfcare.SelfcareFragment"
+        android:label="@string/pagetitle_selfcare"
+        tools:layout="@layout/fragment_selfcare" />
+
+    <fragment
+        android:id="@+id/navigation_tracking"
+        android:name="com.health.mental.mooditude.activity.ui.tracking.TrackingFragment"
+        android:label="@string/pagetitle_tracking"
+        tools:layout="@layout/fragment_tracking" />
+
+    <fragment
+        android:id="@+id/navigation_care"
+        android:name="com.health.mental.mooditude.activity.ui.care.CareFragment"
+        android:label="@string/pagetitle_care"
+        tools:layout="@layout/fragment_care" />
+
+</navigation>

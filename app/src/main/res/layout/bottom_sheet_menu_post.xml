@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp">
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/tv_title"
+        style="@style/BottomSheetItem"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/select"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_edit"
+        style="@style/BottomSheetItem"
+        android:layout_marginStart="@dimen/_20sdp"
+        android:text="@string/text_edit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tv_title" />
+
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_report"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_report"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_edit"
+        app:layout_constraintTop_toBottomOf="@+id/menu_edit" />
+
+    <androidx.appcompat.widget.AppCompatTextView
+        android:id="@+id/menu_delete"
+        style="@style/BottomSheetItem"
+        android:text="@string/text_delete"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="@id/menu_edit"
+        app:layout_constraintTop_toBottomOf="@+id/menu_report" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

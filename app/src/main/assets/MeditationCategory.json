@@ -1,0 +1,67 @@
+[
+    {
+        "attachment": null,
+        "categoryId": "timer",
+        "description": null,
+        "imgStr": null,
+        "isActive": 1,
+        "isDarkImage": 0,
+        "position": 0,
+        "showCategoryCard": 0,
+        "showExpertOnCard": 0,
+        "subtitle": null,
+        "title": "Timer"
+    },
+    {
+        "attachment": null,
+        "categoryId": "basics",
+        "description": null,
+        "imgStr": null,
+        "isActive": 1,
+        "isDarkImage": 0,
+        "position": 1,
+        "showCategoryCard": 0,
+        "showExpertOnCard": 0,
+        "subtitle": null,
+        "title": "Basics"
+    },
+    {
+        "attachment": "{\"contact\":[{\"type\":\"instagram\",\"value\":\"https:\\/\\/www.instagram.com\\/dr.lizlistens\\/\"}],\"id\":\"drliz\",\"imgStr\":\"https:\\/\\/firebasestorage.googleapis.com\\/v0\\/b\\/moody-cb6aa.appspot.com\\/o\\/backgrounds%2Fexperts%2FLizSlonenaPic.jpg?alt=media\",\"qualifications\":\"MSCP, PsyD\",\"name\":\"Dr. Liz Slonena\",\"bio\":\"<p>Dr. Liz is a clinical psychologist and mind-body medicine researcher. She has more than 10 years of clinical research experience and over a dozen scientific studies published. Dr. Liz is the creator of Brief Mindful Hypnosis, a science-backed method to rapidly overcome stress to help you feel more calm, creative, and confident.<\\/p><p>Dr. Liz is unapologetically nerdy and interweaves the he(art) and science of meditation so you can easily merge mindfulness into your life. Her digital home is on her YouTube channel, Your Zen Within | Relax with Dr. Liz and Dr.LizListens.<\\/p>\"}",
+        "categoryId": "lizSleepBetter",
+        "description": "<p>Restless sleep cycles are tough to get out of. Tension and anxiety during the day create insomnia at night. Then the lack of sleep snowballs into further stress, perpetuating the cycle. Productivity drops, and those small tasks become mountains to climb. Give yourself time each night to wind down and prepare your mind and body to rest.</p><p>Meditation helps your brain to slip into those deeper states of relaxation. It guides your body to create a more profound relaxation response. Insomnia lifts, and it becomes easier to go back to sleep. You’ll also find that you wake less.</p><p>Try these targeted meditations to sleep deeper and sounder. I’ll guide you through releasing worries, creating the right mindset for rest, and gradually relaxing your body. Finally, get a good night’s rest!</p>",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fmeditations%2Fliz%2Fmc_sleepBetter.jpg?alt=media",
+        "isActive": 0,
+        "isDarkImage": 0,
+        "position": 4,
+        "showCategoryCard": 1,
+        "showExpertOnCard": 0,
+        "subtitle": null,
+        "title": "Sleep Better in a Week"
+    },
+    {
+        "attachment": null,
+        "categoryId": "coping",
+        "description": "<p>Life sometimes can bring on challenging situations, and finding ways to cope with them can often seem rather challenging. Mindfulness and meditation are effective techniques to cope with these challenges with lasting effects.</p><p>Meditation is considered a type of complementary mind-body medicine. It can produce a deep state of relaxation and a tranquil mind. During meditation, you focus your attention and eliminate the stream of jumbled thoughts that may be crowding your mind and causing stress.</p><p>In this series of guided meditations, I'll help you effectively handle all that comes your way. You will achieve a sense of calm, peace, and balance. And these benefits will not end when your meditation session ends. These meditations will help carry you more calmly through your day and may help you manage symptoms of certain medical conditions.</p><p>So, let's meditate together!</p>",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fmeditation_donna_releasingPain.jpg?alt=media",
+        "isActive": 1,
+        "isDarkImage": 0,
+        "position": 2,
+        "showCategoryCard": 1,
+        "showExpertOnCard": 0,
+        "subtitle": null,
+        "title": "Coping"
+    },
+    {
+        "attachment": "{\"contact\":[{\"type\":\"instagram\",\"value\":\"https:\\/\\/www.instagram.com\\/dr.lizlistens\\/\"}],\"id\":\"drliz\",\"imgStr\":\"https:\\/\\/firebasestorage.googleapis.com\\/v0\\/b\\/moody-cb6aa.appspot.com\\/o\\/backgrounds%2Fexperts%2FLizSlonenaPic.jpg?alt=media\",\"qualifications\":\"MSCP, PsyD\",\"name\":\"Dr. Liz Slonena\",\"bio\":\"<p>Dr. Liz is a clinical psychologist and mind-body medicine researcher. She has more than 10 years of clinical research experience and over a dozen scientific studies published. Dr. Liz is the creator of Brief Mindful Hypnosis, a science-backed method to rapidly overcome stress to help you feel more calm, creative, and confident.<\\/p><p>Dr. Liz is unapologetically nerdy and interweaves the he(art) and science of meditation so you can easily merge mindfulness into your life. Her digital home is on her YouTube channel, Your Zen Within | Relax with Dr. Liz and Dr.LizListens.<\\/p>\"}",
+        "categoryId": "lizFreedomFromAnxiety",
+        "description": "<p>Anxiety can feel like an uninvited friend. Instead of savoring the present moment, your'e caught in a state of excessive worrying. Perhaps your thoughts even keep you up at night.</p><p>Turn down your anxious mind with meditation. This useful tool can travel with you when you need it the most. Meditation helps to calm ruminating thoughts and induce states of peace. Incorporate a meditation habit to experience a better perspective when you’re in stressful situations.</p><p>In the Freedom from Anxiety meditation series, I'll show you different techniques to contain your anxiety and release it. Follow along to achieve a centered mind and calm body. You’ll be prepared to coast over life’s most formidable waves.</p>",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fmeditations%2Fliz%2Fmeditation_category_freedomAnxiety.jpg?alt=media",
+        "isActive": 0,
+        "isDarkImage": 1,
+        "position": 3,
+        "showCategoryCard": 1,
+        "showExpertOnCard": 0,
+        "subtitle": null,
+        "title": "Freedom From Amxiety"
+    }
+]

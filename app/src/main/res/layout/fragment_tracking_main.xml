@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="@dimen/_50sdp"
+    tools:context=".activity.ui.tracking.MainFragment">
+
+    <LinearLayout
+        android:id="@+id/layout_tab_texts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/white"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <TextView
+            android:id="@+id/tv_weeks"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="@font/circularstd_book"
+            android:gravity="center"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="@string/two_weeks"
+            android:textAllCaps="true"
+            android:visibility="visible"
+            android:textColor="@color/tertaryColor"
+            android:textSize="@dimen/_11ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_month"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="@font/circularstd_book"
+            android:gravity="center"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:text="@string/month"
+            android:textAllCaps="true"
+            android:visibility="visible"
+            android:textColor="@color/tertaryColor"
+            android:textSize="@dimen/_11ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_quarter"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?attr/selectableItemBackground"
+            android:fontFamily="@font/circularstd_book"
+            android:gravity="center"
+            android:paddingStart="@dimen/_5sdp"
+            android:paddingTop="@dimen/_10sdp"
+            android:paddingEnd="@dimen/_5sdp"
+            android:paddingBottom="@dimen/_10sdp"
+            android:visibility="visible"
+            android:text="@string/quarter"
+            android:textAllCaps="true"
+            android:textColor="@color/tertaryColor"
+            android:textSize="@dimen/_11ssp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layout_tab_seperator"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/layout_tab_texts"
+        android:orientation="horizontal"
+        android:weightSum="3">
+
+        <View
+            android:id="@+id/seperator_week"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:background="@color/brand_yellow" />
+
+        <View
+            android:id="@+id/seperator_month"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:background="@color/brand_yellow" />
+
+        <View
+            android:id="@+id/seperator_quarter"
+            android:layout_width="0dp"
+            android:layout_height="@dimen/_4sdp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:background="@color/brand_yellow" />
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/layout_tab_seperator"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:overScrollMode="never"
+        android:paddingStart="@dimen/_15sdp"
+        android:paddingEnd="@dimen/_15sdp"
+        android:scrollbars="none">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:animateLayoutChanges="true"
+            android:paddingBottom="@dimen/_50sdp"
+            android:layout_height="wrap_content">
+
+            <include
+                android:id="@+id/tab_week"
+                layout="@layout/home_tab_week"
+                />
+
+            <include
+                android:id="@+id/tab_month"
+                layout="@layout/home_tab_month"
+                />
+
+            <include
+                android:id="@+id/tab_quarter"
+                layout="@layout/home_tab_quarter"
+                />
+        </FrameLayout>
+    </ScrollView>
+</RelativeLayout>

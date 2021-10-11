@@ -1,0 +1,85 @@
+{
+  "project_info": {
+    "project_number": "339470281547",
+    "firebase_url": "https://mooditudetesting.firebaseio.com",
+    "project_id": "mooditudetesting",
+    "storage_bucket": "mooditudetesting.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339470281547:android:2b00c881be8d4882bb96ce",
+        "android_client_info": {
+          "package_name": "com.health.mental.mooditude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339470281547-ir92acpi2ua0una4cdr2083la26qffj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2c1BaGQfMfriAsNWeqEBwo1EW5lTzzrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339470281547-ir92acpi2ua0una4cdr2083la26qffj8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "339470281547-npqs62daa1vcqinj0rjmm62j3ep37o7u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pyntail.moody",
+                "app_store_id": "1450661800"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:339470281547:android:b242e7af36d59057bb96ce",
+        "android_client_info": {
+          "package_name": "com.mentalhealth.Mooditude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "339470281547-ir92acpi2ua0una4cdr2083la26qffj8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2c1BaGQfMfriAsNWeqEBwo1EW5lTzzrg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "339470281547-ir92acpi2ua0una4cdr2083la26qffj8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "339470281547-npqs62daa1vcqinj0rjmm62j3ep37o7u.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pyntail.moody",
+                "app_store_id": "1450661800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

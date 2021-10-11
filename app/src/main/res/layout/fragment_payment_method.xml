@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:padding="@dimen/_15sdp"
+    tools:context=".activity.ui.care.MainFragment">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/how_would_you_pay" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/DescTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:lineSpacingMultiplier="1.3"
+        android:text="@string/how_you_pay_desc"
+        android:textColor="@color/primaryColor" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/rb_cash"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:padding="@dimen/_10sdp"
+            android:text="@string/payment_method_cash"
+            android:fontFamily="@font/circularstd_book"
+            android:textSize="@dimen/_14ssp"
+            android:button="@drawable/radio_flat_selector"
+            android:textColor="@color/primaryColor" />
+
+        <RadioButton
+            android:id="@+id/rb_insurance"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:padding="@dimen/_10sdp"
+            android:button="@drawable/radio_flat_selector"
+            android:text="@string/payment_method_insurance"
+            android:fontFamily="@font/circularstd_book"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/primaryColor" />
+
+        <RadioButton
+            android:id="@+id/rb_unknown"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/_10sdp"
+            android:button="@drawable/radio_flat_selector"
+            android:text="@string/payment_method_unknown"
+            android:fontFamily="@font/circularstd_book"
+            android:textSize="@dimen/_14ssp"
+            android:textColor="@color/primaryColor" />
+    </RadioGroup>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/menu_full_report"
+        android:title="@string/see_full_report" />
+
+    <item android:id="@+id/menu_see_past_assessment"
+        android:title="@string/see_past_assessment" />
+
+    <item android:id="@+id/menu_add_new"
+        android:title="@string/take_an_assessment" />
+
+
+    <item android:id="@+id/menu_share"
+        android:title="@string/share" />
+
+
+</menu>

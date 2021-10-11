@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/user_activity_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/activity_group_container"
+    android:layout_marginBottom="@dimen/_20sdp"
+    android:background="@drawable/white_corner_bg"
+    android:orientation="vertical"
+    android:padding="@dimen/_10sdp">
+
+    <TextView
+        android:id="@+id/tv_group_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:text="@string/people"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp" />
+
+    <com.health.mental.mooditude.custom.CustomGridView
+        android:id="@+id/gridview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_group_title"
+        android:gravity="center"
+        android:horizontalSpacing="6dp"
+        android:numColumns="5"
+        android:scrollbars="none"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="6dp">
+
+    </com.health.mental.mooditude.custom.CustomGridView>
+</RelativeLayout>

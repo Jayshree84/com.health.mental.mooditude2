@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/_15sdp"
+    android:background="@drawable/white_corner_bg">
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/iv_pic"
+        android:layout_width="@dimen/_80sdp"
+        android:layout_height="@dimen/_80sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        app:circleColor="@color/brand_yellow"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_pic"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_12ssp" />
+
+    <TextView
+        android:id="@+id/tv_profession"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="@dimen/_4sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_website"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_below="@id/tv_profession"
+        android:layout_centerHorizontal="true"
+        app:srcCompat="@drawable/ic_website" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_facebook"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_below="@id/tv_profession"
+        android:layout_centerHorizontal="true"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_toStartOf="@id/btn_website"
+        app:srcCompat="@drawable/ic_facebook" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/btn_instagram"
+        android:layout_width="@dimen/_18sdp"
+        android:layout_height="@dimen/_18sdp"
+        android:layout_below="@id/tv_profession"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_toEndOf="@id/btn_website"
+        app:srcCompat="@drawable/ic_instagram" />
+
+    <TextView
+        android:id="@+id/tv_bio"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_website"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:lineSpacingMultiplier="1.3"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_12ssp" />
+
+
+</RelativeLayout>

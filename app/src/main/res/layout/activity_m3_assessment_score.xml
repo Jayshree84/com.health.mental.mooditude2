@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:fitsSystemWindows="true"
+    tools:context=".activity.M3AssessmentScoreActivity">
+
+    <include layout="@layout/toolbar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/toolbar"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:overScrollMode="never"
+        android:scrollbars="none">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/home_background">
+
+            <include
+                android:id="@+id/assessment_topbar"
+                layout="@layout/view_assessment_topbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true" />
+
+
+            <TextView
+                android:id="@+id/tv_response"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/assessment_topbar"
+                android:layout_marginStart="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginEnd="@dimen/_20sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/your_response_have"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="normal" />
+
+            <TextView
+                android:id="@+id/tv_score_details"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_response"
+                android:layout_alignStart="@id/tv_response"
+                android:layout_alignEnd="@id/tv_response"
+                android:layout_marginTop="@dimen/_15sdp"
+                android:fontFamily="@font/circularstd_book"
+                android:lineSpacingMultiplier="1.2"
+                android:text="@string/score_details_medium"
+                android:textColor="@color/primaryColor"
+                android:textSize="@dimen/_14ssp"
+                android:textStyle="normal" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_view_full"
+                style="@style/RegBtnStyle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_score_details"
+                android:layout_alignStart="@id/tv_response"
+                android:layout_marginTop="@dimen/_30sdp"
+                android:text="@string/view_full_report" />
+
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_no_thanks"
+                style="@style/RegBtnStyle2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/btn_view_full"
+                android:layout_alignStart="@id/tv_response"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_30sdp"
+                android:text="@string/no_thanks" />
+
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

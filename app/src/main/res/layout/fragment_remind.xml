@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    tools:context=".fragment.onboarding.RemindFragment">
+
+    <ImageView
+        android:id="@+id/iv_reminder"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@color/transparent"
+        app:srcCompat="@drawable/ic_reminder" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_reminder"
+        android:layout_margin="@dimen/_15sdp"
+        android:text="@string/goal_title"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_alignStart="@id/tv_title"
+        android:layout_alignEnd="@id/tv_title"
+        android:fontFamily="@font/circularstd_book"
+        android:text="@string/goal_desc"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_14ssp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/ic_btn_bg"
+        android:gravity="center"
+        android:text="@string/continue_text"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11ssp" />
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_remind"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_alignStart="@id/tv_title"
+        android:layout_alignEnd="@id/tv_title"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginEnd="@dimen/_20sdp"
+        android:checked="false"
+        android:fontFamily="@font/circularstd_bold"
+        android:text="@string/remind_me"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp" />
+
+</RelativeLayout>

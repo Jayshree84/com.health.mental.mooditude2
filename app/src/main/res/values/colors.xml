@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!--100% — FF
+    95% — F2
+    90% — E6
+    85% — D9
+    80% — CC
+    75% — BF
+    70% — B3
+    65% — A6
+    60% — 99
+    55% — 8C
+    50% — 80
+    45% — 73
+    40% — 66
+    35% — 59
+    30% — 4D
+    25% — 40
+    20% — 33
+    15% — 26
+    10% — 1A
+    5% — 0D
+    0% — 00-->
+
+    <color name="page_background">#FFFFFF</color>
+    <color name="yellow_main"></color>
+    <color name="black_one">#000000</color>
+    <color name="transparent">#00FFFFFF</color>
+    <color name="boarding_text">#072B4F</color>
+    <color name="boarding_text_grey">#8395A7</color>
+    <color name="edit_text">#072B4F</color>
+    <color name="edit_text_hint">#B5BFCA</color>
+    <color name="edit_text_bg">#0D072B4F</color>
+
+    <color name="btn_green">#1DA467</color>
+    <color name="error_red">#FF0000</color>
+
+    <color name="primaryColor">#072B4F</color>
+    <color name="secondaryColor">#516B84</color>
+    <color name= "tertaryColor">#B5BFCA</color>
+    <color name="btn_inactive">#B5BFCA</color>
+    <color name="status_bar">#1A072B4F</color>
+
+    <color name="home_background">#0D072B4F</color>
+    <color name="white_10">#66FFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+
+    <color name="option_bg">#0D072B4F</color>
+    <color name="light_seperator">#E6EAED</color>
+
+
+    <color name="theme1">#FFFFFF</color>
+    <color name="theme2">#E8F9FB</color>
+    <color name="theme3">#E6EDDF</color>
+    <color name="theme4">#EFECE6</color>
+    <color name="theme5">#072B4F</color>
+    <color name="theme6">#FCEDED</color>
+    <color name="theme7">#FAE6DB</color>
+    <color name="theme8">#E1E8E8</color>
+    <color name="theme9">#5B6F57</color>
+    <color name="theme10">#687A84</color>
+    <color name="theme11">#F9F2EA</color>
+    <color name="theme12">#E6E5F3</color>
+    <color name="theme13">#6F6B82</color>
+    <color name="theme14">#5F5C3A</color>
+    <color name="theme15">#313435</color>
+    <color name="theme16">#EAEAEA</color>
+
+    <color name="bottom_bar">#FFFFFF</color>
+    <color name="bottom_bar_selection">#8FB3B305</color>
+
+    <color name="brand_yellow">#F8E71C</color>
+
+    <color name="gradient_bg_start">#FFFFFFFF</color>
+    <color name="gradient_bg_end">#FFF8A992</color>
+
+    <color name="info">#FFFFAA</color>
+
+    <color name="risk_unlikely">#C5D416</color>
+    <color name="risk_low">#22A1D1</color>
+    <color name="risk_medium">#F9982C</color>
+    <color name="risk_high">#EB5757</color>
+
+    <color name="risk_progress_main">#B5BFCA</color>
+    <color name="risk_depression">#56CCF2</color>
+    <color name="risk_anxiety">#DC957E</color>
+    <color name="risk_ptsd">#6FCF97</color>
+    <color name="risk_bipolar">#D68AFA</color>
+
+    <color name="no_fill">#D2D8DF</color>
+
+
+    <color name="overall_score">#2968EA</color>
+    <color name="gray">#E6EAED</color>
+
+    <color name="alert_color">#B42D45</color>
+</resources>

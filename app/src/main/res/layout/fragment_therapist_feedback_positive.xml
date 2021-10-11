@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:orientation="vertical"
+    android:background="@color/home_background"
+    android:padding="@dimen/_15sdp"
+    >
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/white_corner_bg"
+        android:orientation="vertical"
+        android:padding="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tv_rating"
+            style="@style/TitleTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:text="@string/how_was_interaction"
+            android:textSize="@dimen/_16ssp" />
+
+        <RatingBar
+            android:id="@+id/rating_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:numStars="5"
+            android:rating="3"
+            android:stepSize="0.5"
+            android:theme="@style/RatingBar" />
+    </LinearLayout>
+
+
+    <androidx.appcompat.widget.SwitchCompat
+        android:id="@+id/switch_working"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:background="@drawable/white_corner_bg"
+        android:checked="false"
+        android:fontFamily="@font/circularstd_bold"
+        android:padding="@dimen/_15sdp"
+        android:text="@string/working_with_provider"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp" />
+
+
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/et_message"
+        style="@style/RegEditTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/_40sdp"
+        android:background="@drawable/white_corner_bg"
+        android:gravity="start"
+        android:hint="@string/hint_we_are_working"
+        android:imeOptions="actionDone"
+        android:inputType="textMultiLine"
+        android:lineSpacingMultiplier="1.2"
+        android:minLines="5"
+        android:textColorHint="@color/tertaryColor"
+        android:textSize="@dimen/_14ssp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_submit"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/submit" />
+
+</LinearLayout>

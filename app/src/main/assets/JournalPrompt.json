@@ -1,0 +1,112 @@
+[
+    {
+        "desc": null,
+        "groupId": "sleep",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Ftomorrow.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 1,
+        "promptId": "sleep2",
+        "stepsStr": "[{\"title\":\"Incomplete tasks spur automatic thoughts and trigger cognitive arousal resulting in problems falling asleep.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"It is not surprising that sleep difficulties are most common at the beginning of the workweek.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"The one seemingly counterintuitive solution to bedtime worry is to write about what is on your mind, more specifically, your open tasks.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"By confronting a written record of unfinished tasks, the mind relaxes, unwinds, and naturally eases into sleep.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"Tomorrow's to-do list:\",\"input\":true,\"order\":4,\"inputPlaceholder\":\"• \",\"isAttributedText\":false},{\"title\":\"What's your plan to complete these tasks?\",\"input\":true,\"order\":5,\"isAttributedText\":false},{\"title\":\"Awesome. Now, you have a practical plan in hand. \",\"input\":true,\"order\":6,\"isAttributedText\":false},{\"title\":\"Off to the land of dreams, I fly.\\nThe tossing and turning it must go.\\nWhile in my bed, I lie.\\nIt's the sleep that I wish to know.\",\"input\":true,\"order\":7,\"isAttributedText\":false}]",
+        "title": "Tomorrow"
+    },
+    {
+        "desc": null,
+        "groupId": "knowThee",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2FThingsThatSmile.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 1,
+        "promptId": "knowThee1",
+        "stepsStr": "[{\"title\":\"Smiling stimulates our brain's reward mechanisms in a way that even chocolate cannot match.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"Your brain keeps track of your smiles, kind of like a smile scorecard. It knows how often you've smiled and set your overall emotional state.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"On average, children smile 400 times a day. While happy people smile 40-50 times a day, the average of us only does so 20 times.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"Why does this matter? Smiling leads to a decrease in the stress-induced hormones that negatively affect your physical and mental health.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"Scientists tracked the lives of women who had the best smiles in yearbook photos compared to the rest. They found that women who smiled the most lived happier and had fewer setbacks.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"The important thing is smiling can be learned. Or to be precise, re-learned. \",\"input\":false,\"order\":5,\"isAttributedText\":false},{\"title\":\"So visualize someone you deeply love or recall an event that brought you deep satisfaction and joy. And...\",\"input\":false,\"order\":6,\"isAttributedText\":false},{\"title\":\"Make a list of 30 things that make you smile.\",\"input\":true,\"order\":7,\"inputPlaceholder\":\"1.\",\"isAttributedText\":false},{\"title\":\"Before any event, phone call, meeting someone, or facing a stressful situation, think one of the things that make you smile.\",\"input\":false,\"order\":8,\"isAttributedText\":false}]",
+        "title": "Things that make you smile"
+    },
+    {
+        "desc": null,
+        "groupId": "knowThee",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fprompt_confess.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 1,
+        "position": 2,
+        "promptId": "knowThee2",
+        "stepsStr": "[{\"title\":\"Nothing lightens the soul quite like a good hearty confession. \",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"Let this page act as your confession box.\",\"input\":true,\"order\":1,\"inputPlaceholder\":\"I confess...\",\"isAttributedText\":false}]",
+        "title": "I Confess"
+    },
+    {
+        "desc": null,
+        "groupId": "knowThee",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Ffirst_last.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 1,
+        "position": 3,
+        "promptId": "knowThee3",
+        "stepsStr": "[{\"title\":\"A first is momentous. \",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"It's both meaningful and memorable. It is crammed with possibilities and excitement.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"But...\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"Give a little thought to the endings that, at the time, you didn't even see coming.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"Chockfull of consequence and aftermath.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"The first word you will use to describe yourself:\",\"input\":true,\"order\":5,\"isAttributedText\":false},{\"title\":\"The last time you felt happy:\",\"input\":true,\"order\":6,\"isAttributedText\":false},{\"title\":\"The first person you will confide in:\",\"input\":true,\"order\":7,\"isAttributedText\":false},{\"title\":\"The last person you will rely on:\",\"input\":true,\"order\":8,\"isAttributedText\":false},{\"title\":\"The first time you stood your ground:\",\"input\":true,\"order\":9,\"isAttributedText\":false},{\"title\":\"The last time you felt in control:\",\"input\":true,\"order\":10,\"isAttributedText\":false},{\"title\":\"The first time you said, \\\"I love you.\\\"\",\"input\":true,\"order\":11,\"isAttributedText\":false},{\"title\":\"The last time you were angry?\",\"input\":true,\"order\":12,\"isAttributedText\":false},{\"title\":\"The first thing you would save in a house on fire:\",\"input\":true,\"order\":13,\"isAttributedText\":false},{\"title\":\"The last time you were fearful:\",\"input\":true,\"order\":14,\"isAttributedText\":false},{\"title\":\"And the last but not least...\",\"input\":false,\"order\":15,\"isAttributedText\":false},{\"title\":\"The last time you lied:\",\"input\":true,\"order\":16,\"isAttributedText\":false}]",
+        "title": "Firsts & Lasts"
+    },
+    {
+        "desc": null,
+        "groupId": "stressToJoy",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fstress2joy_igf.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 1,
+        "promptId": "stressToJoy_1",
+        "stepsStr": "[{\"title\":\"Every experience in life can be seen from different angles.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"Gratitude allows you to see the side that gives you hope and happiness.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"So, start looking at things that are working for you in your life.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"Focus on the specific, feel the feeling of gratitude and write with a smile on your face.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"You may write full sentences like: \\\"I am grateful for my friends that I can call when I need someone to talk to.\\\"\\n\\nOr single words like: Life opportunity, love, laughter, etc.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"Today I’m grateful for...\",\"input\":true,\"order\":5,\"inputPlaceholder\":\"I am grateful for...\",\"isAttributedText\":false}]",
+        "title": "I am Grateful For..."
+    },
+    {
+        "desc": null,
+        "groupId": "stressToJoy",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fstress2joy_3gf.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 2,
+        "promptId": "stressToJoy_2",
+        "stepsStr": "[{\"title\":\"My friend Tracy Jane taught me this method.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"She does not wait for big things to happen to feel happy.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"She gets happy with the simple, ordinary stuff of ordinary life.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"She says, \\\"If you ponder, you will realize the extraordinariness in any ordinary moment.\\\"\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"For example, just to be able to stand, you need to have your legs and your body's balance.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"Once I realized the significance of seemingly simple things, it changed my life, and it will change yours too.\",\"input\":false,\"order\":5,\"isAttributedText\":false},{\"title\":\"Name the three good things that happened today.\",\"input\":true,\"order\":6,\"inputPlaceholder\":\"1.\",\"isAttributedText\":false},{\"title\":\"What are the three things that you are looking forward to?\",\"input\":true,\"order\":7,\"inputPlaceholder\":\"I am looking forward to...\",\"isAttributedText\":false}]",
+        "title": "Three Good Things"
+    },
+    {
+        "desc": null,
+        "groupId": "stressToJoy",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fstress2joy_ag.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 3,
+        "promptId": "stressToJoy_3",
+        "stepsStr": "[{\"title\":\"Both affirmations and visualizations are powerful tools that prepare your brain for achieving goals. They are like seeds that you sow in your mind's field.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"When you say a positive, short statement in the present tense, your intentions—as if you have already achieved them—are called affirmations.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"Visualization merely is seeing those things in your mind's eye as vividly as real, as if they already happened.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"Some people have trouble feeling confident in their vision when they are going thru a difficult time.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"Like one person asked me, \\\"How can I be confident and affirm that I have the best job possible when I am getting all rejections?\\\"\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"So, if your mind doesn't accept what you say, those words or visualization hold no power.\",\"input\":false,\"order\":5,\"isAttributedText\":false},{\"title\":\"That's where Advanced Gratitude comes into play.\",\"input\":false,\"order\":6,\"isAttributedText\":false},{\"title\":\"You pay for groceries before you take them home. You write \\\"thanking you in advance\\\" when asking someone for a favor in a letter. Right?\",\"input\":false,\"order\":7,\"isAttributedText\":false},{\"title\":\"So why not pay thanks, in advance, for the things that you want?\",\"input\":false,\"order\":8,\"isAttributedText\":false},{\"title\":\"For example, the other person could say, \\\"I'm grateful in advance that I'll have the best job possible.\\\"\",\"input\":false,\"order\":9,\"isAttributedText\":false},{\"title\":\"This advance gratitude is your affirmation and visualization that your mind will accept.\",\"input\":false,\"order\":10,\"isAttributedText\":false},{\"title\":\"I'm grateful in advance that I am\\/I have:\",\"input\":true,\"order\":11,\"inputPlaceholder\":\"1.\",\"isAttributedText\":false}]",
+        "title": "Advanced Gratitude"
+    },
+    {
+        "desc": null,
+        "groupId": "healthAcceptance",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fprompt_acceptance_2.jpg?alt=media&token=eac1c525-66e9-4461-aab8-f43b28cd5edb",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 2,
+        "promptId": "acceptance2",
+        "stepsStr": "[{\"title\":\"Tough emotions are hard to sit with and accept.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"You might bury these difficult feelings or even feel ashamed to have them. \",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"Instead, for this moment, allow yourself to feel the emotion in your body. It is trying to tell you something, listen.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"Once you have found that uncomfortable emotion, give it a name. \",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"You are not your emotions, you just feel them. They give you useful information about a situation.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"Allow yourself to be in the present and not caught up in a feeling that was triggered from an event in the past or anticipation of something in the future.\",\"input\":false,\"order\":5,\"isAttributedText\":false},{\"title\":\"After you acknowledge the negative emotion, accept it.\",\"input\":false,\"order\":6,\"isAttributedText\":false},{\"title\":\"Begin to notice that emotions will come and go, even the difficult ones.\",\"input\":false,\"order\":7,\"isAttributedText\":false},{\"title\":\"Realize that you don’t need to control what you are feeling in a situation. It is ok to let go. Allow yourself to feel whatever arises.\",\"input\":false,\"order\":8,\"isAttributedText\":false},{\"title\":\"What are 3 difficult feelings you will allow yourself to feel guilt-free?\",\"input\":true,\"order\":9,\"isAttributedText\":false}]",
+        "title": "Loving Difficult Feelings "
+    },
+    {
+        "desc": null,
+        "groupId": "healthAcceptance",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fprompt_acceptance_1.jpg?alt=media",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 1,
+        "promptId": "acceptance1",
+        "stepsStr": "[{\"title\":\"It may seem that everyone else preaches self-love and has confidence that would make a rockstar blush.\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"Many times, this obvious outward expression is for show and is an illusion.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"True self-love and acceptance starts from deep within.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"Self-acceptance is recognizing that you are separate from your thoughts, actions, and words.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"You may have made mistakes or misjudgments, but these are not you. They can always change.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"Healthy acceptance is not only loving the parts of yourself that are wonderful, but it’s also loving the parts that you wish you could change.\",\"input\":false,\"order\":6,\"isAttributedText\":false},{\"title\":\"Instead of constantly wishing you were different, make peace with who you are and where you are in your life. \",\"input\":false,\"order\":7,\"isAttributedText\":false},{\"title\":\"Your life’s path is beautiful and unique in its own way. If there’s a direction you would rather grow in, walk there with self-compassion and love. \",\"input\":false,\"order\":8,\"isAttributedText\":false},{\"title\":\"Now, what does self-acceptance mean to you?\",\"input\":true,\"order\":9,\"inputPlaceholder\":\"\",\"isAttributedText\":false}]",
+        "title": "Embrace Yourself First"
+    },
+    {
+        "desc": null,
+        "groupId": "healthAcceptance",
+        "imgStr": "https://firebasestorage.googleapis.com/v0/b/moody-cb6aa.appspot.com/o/backgrounds%2Fprompts%2Fprompt_acceptance_3.jpg?alt=media&token=5efa8a7a-4ab0-4406-bfe6-382c0ae80b8e",
+        "isActive": 1,
+        "isPremium": 0,
+        "position": 3,
+        "promptId": "acceptance3",
+        "stepsStr": "[{\"title\":\"Relationships with loved ones can be some of the most painful experiences to navigate in life\",\"input\":false,\"order\":0,\"isAttributedText\":false},{\"title\":\"Relationships with loved ones can be some of the most painful experiences to navigate in life.\",\"input\":false,\"order\":1,\"isAttributedText\":false},{\"title\":\"When you learn to radically accept the relationship for what it is, you begin to see it as it really is, not how you wish it to be.\",\"input\":false,\"order\":2,\"isAttributedText\":false},{\"title\":\"With radical acceptance, you will no longer see your relationship with the other person through rose-tinted glasses to ease the pain.\",\"input\":false,\"order\":3,\"isAttributedText\":false},{\"title\":\"Nor do you accept the hurtful boundaries they may have crossed, just to put things behind you.\",\"input\":false,\"order\":4,\"isAttributedText\":false},{\"title\":\"Radical acceptance helps you to accept your painful relationships without judgment. It gives you the emotional freedom to not be stuck in those memories and emotions.\",\"input\":false,\"order\":6,\"isAttributedText\":false},{\"title\":\"Accept that someone you love has mistreated you in your relationship. They might even continue to mistreat you.\",\"input\":false,\"order\":7,\"isAttributedText\":false},{\"title\":\"Accept that they can’t currently provide what you need from the relationship. Use this to create your own safe boundaries.\",\"input\":false,\"order\":8,\"isAttributedText\":false},{\"title\":\"Acceptance allows you to see things as they are and protect your physical and emotional wellbeing.\",\"input\":false,\"order\":9,\"isAttributedText\":false},{\"title\":\"Describe a difficult relationship in your life that you radically accept the reality of.\",\"input\":true,\"order\":10,\"isAttributedText\":false}]",
+        "title": "Relationship Clarity "
+    }
+]

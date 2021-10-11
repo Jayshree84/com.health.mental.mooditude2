@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="@dimen/_120sdp"
+    android:layout_height="@dimen/_130sdp"
+    android:layout_marginStart="@dimen/_15sdp"
+    android:background="@drawable/white_corner_ripple_bg"
+    app:cardCornerRadius="6dp"
+    app:cardElevation="0dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.appcompat.widget.AppCompatImageView
+            android:id="@+id/iv_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:transitionName="image"
+            app:srcCompat="@color/secondaryColor" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/white_10"
+            android:ellipsize="end"
+            android:fontFamily="@font/circularstd_black"
+            android:maxLines="2"
+            android:paddingStart="@dimen/_10sdp"
+            android:paddingTop="@dimen/_5sdp"
+            android:paddingEnd="@dimen/_10sdp"
+            android:gravity="bottom"
+            android:paddingBottom="@dimen/_5sdp"
+            android:textColor="@color/primaryColor"
+            android:textSize="@dimen/_14ssp" />
+
+        <include layout="@layout/view_premium_btn" />
+    </RelativeLayout>
+
+</androidx.cardview.widget.CardView>

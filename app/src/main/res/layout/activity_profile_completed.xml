@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    tools:context=".activity.ProfileCompletedActivity">
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/animationView"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_150sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"
+        app:lottie_rawRes="@raw/profile_completed" />
+
+    <TextView
+        android:id="@+id/tv_congrats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/animationView"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/congrats"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_congrats"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/congrats_desc"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_mental_health"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center_vertical"
+        android:text="@string/you_recognized_mental_health"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        app:drawableStartCompat="@drawable/ic_option_checked1" />
+
+    <TextView
+        android:id="@+id/tv_road_block"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_mental_health"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center_vertical"
+        android:text="@string/you_identify_road_block"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        app:drawableStartCompat="@drawable/ic_option_checked1" />
+
+    <TextView
+        android:id="@+id/tv_make_promise"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_road_block"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center_vertical"
+        android:text="@string/you_commited"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal"
+        app:drawableStartCompat="@drawable/ic_option_checked1" />
+
+    <TextView
+        android:id="@+id/tv_proud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_make_promise"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:drawablePadding="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/we_r_proud"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_continue"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:background="@drawable/btn_bg_active"
+        android:gravity="center"
+        android:onClick="onContinueBtnClicked"
+        android:text="@string/continue_text"
+        android:textAllCaps="true"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_11ssp" />
+</RelativeLayout>
+
+

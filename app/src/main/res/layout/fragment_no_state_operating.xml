@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:padding="@dimen/_15sdp"
+    tools:context=".activity.ui.care.HasAssessmentFragment">
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_sorry"
+        android:layout_width="@dimen/_170sdp"
+        android:layout_height="@dimen/_170sdp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        app:srcCompat="@drawable/ic_sorry" />
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_sorry"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center"
+        android:text="@string/we_are_not_in_state"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/info_corner_bg"
+        android:fontFamily="@font/circularstd_book"
+        android:lineSpacingMultiplier="1.2"
+        android:padding="@dimen/_15sdp"
+        android:gravity="center"
+        android:text="@string/text_emergency"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_above="@id/tv_info"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/growing_network"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:layout_marginEnd="@dimen/_15sdp"
+        android:textStyle="normal" />
+
+
+
+
+</RelativeLayout>

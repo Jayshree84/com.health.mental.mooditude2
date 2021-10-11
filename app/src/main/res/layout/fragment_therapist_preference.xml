@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:padding="@dimen/_15sdp"
+    tools:context=".activity.ui.care.MainFragment">
+
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/what_is_important" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/DescTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/tap_and_hold"
+        android:textColor="@color/primaryColor" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list_entries"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:clipToPadding="false"
+        android:overScrollMode="never"
+        android:scrollbars="none" />
+
+</RelativeLayout>

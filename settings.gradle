@@ -1,0 +1,2 @@
+rootProject.name = "com.health.mental.mooditude"
+include ':app'

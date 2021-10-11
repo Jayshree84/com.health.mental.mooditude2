@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment.registration.NameFragment">
+
+    <TextView
+        android:id="@+id/tv_join"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:paddingTop="@dimen/_10sdp"
+        android:text="@string/join_mooditude"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_20ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_you_deserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_join"
+        android:layout_alignStart="@id/tv_join"
+        android:layout_alignEnd="@id/tv_join"
+        android:fontFamily="@font/circularstd_book"
+        android:paddingBottom="@dimen/_10sdp"
+        android:text="@string/you_deserve"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="@color/boarding_text_grey"
+        android:textStyle="normal" />
+
+    <View
+        android:id="@+id/view_seperator"
+        android:layout_width="1dp"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/tv_join"
+        android:layout_alignBottom="@id/tv_you_deserve"
+        android:layout_marginStart="@dimen/_40sdp"
+        android:layout_marginEnd="@dimen/_5sdp"
+        android:layout_toEndOf="@id/tv_join"
+        android:background="@color/brand_yellow" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_login"
+        style="@style/RegBtnStyle2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/view_seperator"
+        android:layout_alignBottom="@id/view_seperator"
+        android:layout_toEndOf="@id/view_seperator"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:text="@string/login"
+        android:textAllCaps="false"
+        android:textSize="@dimen/_13ssp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/name_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_you_deserve"
+        android:layout_alignStart="@id/tv_join"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/ErrorText"
+        app:hintEnabled="false">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_name"
+            style="@style/RegEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/hint_name"
+            android:imeOptions="actionNext"
+            android:inputType="textPersonName|textCapWords">
+
+            <requestFocus />
+        </androidx.appcompat.widget.AppCompatEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/email_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/name_layout"
+        app:errorEnabled="true"
+        app:errorTextAppearance="@style/ErrorText"
+        app:hintEnabled="false">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_email"
+            style="@style/RegEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/hint_email"
+            android:imeOptions="actionNext"
+            android:inputType="textEmailAddress">
+
+        </androidx.appcompat.widget.AppCompatEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/password_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/email_layout"
+        android:layout_marginBottom="@dimen/_10sdp"
+        app:errorEnabled="false"
+        app:errorTextAppearance="@style/ErrorText"
+        app:hintEnabled="false">
+
+        <androidx.appcompat.widget.AppCompatEditText
+            android:id="@+id/et_password"
+            style="@style/RegEditTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:hint="@string/hint_password"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <TextView
+        android:id="@+id/tv_error_info"
+        style="@style/ErrorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/password_layout"
+        android:layout_alignStart="@id/tv_join"
+        android:layout_alignEnd="@id/tv_join"
+        android:text="@string/you_deserve" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_signup"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_error_info"
+        android:layout_alignStart="@id/tv_join"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:text="@string/signup" />
+
+    <TextView
+        android:id="@+id/tv_terms"
+        style="@style/ErrorText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/btn_signup"
+        android:layout_alignStart="@id/tv_join"
+        android:layout_marginTop="@dimen/_12sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/terms_and_conditions"
+        android:textColor="@color/secondaryColor" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_security"
+        android:layout_width="@dimen/_24sdp"
+        android:layout_height="@dimen/_24sdp"
+        android:layout_below="@id/tv_terms"
+        android:layout_marginTop="@dimen/_30sdp"
+        app:tint="@color/secondaryColor"
+        app:srcCompat="@drawable/ic_security" />
+
+    <TextView
+        android:id="@+id/tv_secure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/iv_security"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_toEndOf="@id/iv_security"
+        android:fontFamily="@font/circularstd_black"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/private_and_secure"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_14ssp" />
+
+    <TextView
+        android:id="@+id/tv_secure_desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_secure"
+        android:layout_alignStart="@id/tv_secure"
+        android:layout_marginTop="@dimen/_3sdp"
+        android:layout_marginBottom="@dimen/_30sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/private_and_secure_desc"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_10ssp" />
+
+</RelativeLayout>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/_10sdp"
+    android:layout_marginBottom="@dimen/_15sdp"
+    android:paddingTop="@dimen/_20sdp"
+    android:paddingBottom="@dimen/_20sdp"
+    android:background="@drawable/white_corner_bg">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center"
+        android:text="@string/how_you_feel_today"
+        android:textColor="@color/boarding_text"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_mood_normal"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/_5sdp"
+        app:srcCompat="@drawable/ic_feel_normal" />
+
+    <TextView
+        android:id="@+id/tv_normal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_mood_normal"
+        android:layout_alignStart="@id/iv_mood_normal"
+        android:layout_alignEnd="@id/iv_mood_normal"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/feel_normal"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_mood_low"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toStartOf="@id/iv_mood_normal"
+        app:srcCompat="@drawable/ic_feel_low" />
+
+    <TextView
+        android:id="@+id/tv_low"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_mood_low"
+        android:layout_alignStart="@id/iv_mood_low"
+        android:layout_alignEnd="@id/iv_mood_low"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/feel_low"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_mood_worst"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginEnd="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toStartOf="@id/iv_mood_low"
+        app:srcCompat="@drawable/ic_feel_worst" />
+
+    <TextView
+        android:id="@+id/tv_worst"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_mood_worst"
+        android:layout_alignStart="@id/iv_mood_worst"
+        android:layout_alignEnd="@id/iv_mood_worst"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/feel_worst"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_mood_high"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toEndOf="@id/iv_mood_normal"
+        app:srcCompat="@drawable/ic_feel_high" />
+
+    <TextView
+        android:id="@+id/tv_high"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_mood_high"
+        android:layout_alignStart="@id/iv_mood_high"
+        android:layout_alignEnd="@id/iv_mood_high"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/feel_high"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_mood_elevated"
+        android:layout_width="@dimen/_35sdp"
+        android:layout_height="@dimen/_35sdp"
+        android:layout_below="@id/tv_title"
+        android:layout_marginStart="@dimen/_10sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:layout_toEndOf="@id/iv_mood_high"
+        app:srcCompat="@drawable/ic_feel_elevated" />
+
+    <TextView
+        android:id="@+id/tv_elevated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/iv_mood_high"
+        android:layout_alignStart="@id/iv_mood_elevated"
+        android:layout_alignEnd="@id/iv_mood_elevated"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/feel_elevated"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp" />
+
+
+</RelativeLayout>

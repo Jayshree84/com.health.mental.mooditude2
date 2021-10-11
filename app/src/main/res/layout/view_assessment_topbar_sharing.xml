@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_corner_bg"
+    android:paddingTop="@dimen/_20sdp">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center_vertical"
+        android:text="@string/mental_wellbeing_score"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:padding="0dp"
+        android:text="@string/high_risk"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/circle_score"
+        android:layout_width="@dimen/_60sdp"
+        android:layout_height="@dimen/_60sdp"
+        android:layout_below="@id/tv_date"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:padding="@dimen/_3sdp"
+        android:scaleType="centerCrop"
+        app:circleColor="@color/brand_yellow"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:srcCompat="@color/error_red"
+        app:strokeColor="@color/brand_yellow"
+        app:strokeWidth="5dp" />
+
+    <TextView
+        android:id="@+id/tv_score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@id/circle_score"
+        android:layout_alignBottom="@id/circle_score"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="@dimen/_15sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:gravity="center"
+        android:text="108"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_24ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_risk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/circle_score"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_15sdp"
+        android:layout_marginBottom="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_black"
+        android:text="@string/high_risk"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_16ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_risk_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_risk"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="@dimen/_30sdp"
+        android:layout_marginEnd="@dimen/_30sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/high_risk_desc"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="normal" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_risk_scale"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_risk_desc"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_20sdp"
+        app:srcCompat="@drawable/ic_risk_scale" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_risk_scale"
+        android:layout_marginTop="@dimen/_20sdp"
+        android:background="@drawable/btn_two_corner_bg"
+        android:backgroundTint="@color/brand_yellow">
+
+        <ImageView
+            android:id="@+id/iv_logo"
+            android:layout_width="@dimen/_35sdp"
+            android:layout_height="@dimen/_35sdp"
+            android:layout_marginStart="@dimen/_15sdp"
+            android:layout_marginTop="@dimen/_8sdp"
+            android:layout_marginEnd="@dimen/_5sdp"
+            android:layout_marginBottom="@dimen/_8sdp"
+            android:adjustViewBounds="true"
+            android:background="@color/transparent"
+            app:srcCompat="@drawable/ic_group_only_image" />
+
+        <TextView
+            android:id="@+id/tv_moodytude"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/iv_logo"
+            android:layout_marginTop="@dimen/_4sdp"
+            android:layout_toEndOf="@id/iv_logo"
+            android:fontFamily="@font/circularstd_black"
+            android:paddingTop="0dp"
+            android:text="@string/mooditude"
+            android:textAllCaps="true"
+            android:textColor="@color/boarding_text"
+            android:textSize="@dimen/_12ssp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tv_happy_you"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv_moodytude"
+            android:layout_alignStart="@id/tv_moodytude"
+            android:fontFamily="@font/circularstd_book"
+            android:text="@string/happy_you"
+            android:textColor="@color/boarding_text"
+            android:textSize="@dimen/_8ssp"
+            android:textStyle="normal" />
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/page_background"
+    android:orientation="vertical">
+
+    <View
+        android:id="@+id/view_bg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_70sdp"
+        android:background="@color/brand_yellow" />
+
+    <androidx.appcompat.widget.AppCompatImageView
+        android:id="@+id/iv_photo"
+        android:layout_width="@dimen/_85sdp"
+        android:layout_height="@dimen/_85sdp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_35sdp"
+        android:adjustViewBounds="true"
+        android:background="@drawable/white_corner_bg"
+        android:padding="@dimen/_5sdp"
+        android:scaleType="centerCrop"
+        app:shapeAppearanceOverlay="@style/roundedImageViewRounded"
+        app:srcCompat="@drawable/ic_profile"
+        app:strokeColor="@color/white"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/iv_photo"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/mooditude"
+        android:textColor="@color/primaryColor"
+        android:textSize="@dimen/_22ssp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tv_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_name"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/mooditude"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_11ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_since"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_email"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/mooditude"
+        style="@style/DescCaptionTextStyle"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_12ssp"
+        android:textStyle="normal" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_since"
+        android:orientation="vertical"
+        android:layout_marginTop="@dimen/_30sdp"
+        android:padding="@dimen/_15sdp">
+
+        <TextView
+            android:id="@+id/tv_goal"
+            style="@style/DescCaptionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/text_goal"
+            android:textAllCaps="true" />
+
+        <androidx.appcompat.widget.AppCompatSpinner
+            android:id="@+id/spinner_goal"
+            style="@style/DescTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/white_corner_bg"
+            android:backgroundTint="@color/option_bg"
+            android:fontFamily="@font/circularstd_book"
+            android:textColor="@color/primaryColor" />
+
+        <TextView
+            android:id="@+id/tv_challenges"
+            style="@style/DescCaptionTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_5sdp"
+            android:text="@string/challenges"
+            android:textAllCaps="true" />
+
+        <com.health.mental.mooditude.custom.MultiSpinner
+            android:id="@+id/spinner_challenges"
+            style="@style/DescTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20sdp"
+            android:background="@drawable/white_corner_bg"
+            android:backgroundTint="@color/option_bg"
+            android:fontFamily="@font/circularstd_book"
+            android:textColor="@color/primaryColor" />
+
+        <TextView
+            android:id="@+id/tv_profile"
+            style="@style/DescTextStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/white_corner_bg"
+            android:backgroundTint="@color/option_bg"
+            android:fontFamily="@font/circularstd_book"
+            android:gravity="center_vertical"
+            android:text="@string/text_profile"
+            android:textColor="@color/primaryColor"
+            android:textStyle="normal"
+            android:padding="@dimen/_10sdp"
+            android:textSize="@dimen/_14ssp"
+            app:drawableEndCompat="@drawable/ic_btn_next" />
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/_5sdp">
+
+    <ImageView
+        android:id="@+id/iv_selection"
+        android:layout_width="@dimen/_14sdp"
+        android:layout_height="@dimen/_14sdp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/_4sdp"
+        android:src="@drawable/ic_option_checked" />
+
+    <TextView
+        android:id="@+id/tv_text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:fontFamily="@font/fa_pro_solid_900"
+        android:gravity="center"
+        android:text="@string/alone1"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_18ssp"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/tv_text2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_text1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:fontFamily="@font/circularstd_book"
+        android:gravity="center"
+        android:text="@string/alone2"
+        android:textColor="@color/secondaryColor"
+        android:textSize="@dimen/_9ssp"
+        android:textStyle="normal" />
+
+
+</RelativeLayout>

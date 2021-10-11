@@ -1,0 +1,195 @@
+plugins {
+    id 'com.android.application'
+    id 'kotlin-android'
+    id 'kotlin-kapt'
+    // Add this line for firebase
+    id 'com.google.gms.google-services'
+
+    // Apply the Crashlytics Gradle plugin
+    id 'com.google.firebase.crashlytics'
+}
+
+android {
+    signingConfigs {
+        signing_release {
+            storeFile file('C:\\DATA\\Jayshree\\DEVELOPMENT\\Android\\KAMRAN\\Projects\\Moody\\CODE\\Mooditude\\key_mooditude')
+            storePassword 'M00diTude!'
+            keyAlias 'MooditudeAndroid'
+            keyPassword 'M00diTude!'
+        }
+    }
+    compileSdkVersion 31
+    buildToolsVersion "31.0.0"
+
+    dexOptions {
+        incremental true
+    }
+
+    buildFeatures {
+        viewBinding = true
+    }
+
+    defaultConfig {
+        applicationId "com.health.mental.mooditude"
+        minSdkVersion 21
+        targetSdkVersion 31
+        versionCode 4
+        versionName "v0.50.20211008"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        debug {
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.signing_release
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    kotlinOptions {
+        jvmTarget = '1.8'
+    }
+
+    repositories {
+        maven { url 'https://jitpack.io' }
+    }
+}
+
+/*configurations.all {
+    resolutionStrategy {
+        eachDependency { details ->
+            // Force all of the primary support libraries to use the same version.
+            if (details.requested.group == 'com.android.support') {
+                details.useVersion versions.supportLibrary
+            }
+        }
+    }
+}*/
+dependencies {
+
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.2.71"
+    implementation 'androidx.core:core-ktx:1.6.0'
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'com.google.android.material:material:1.4.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+    implementation 'com.google.firebase:firebase-database-ktx:20.0.2'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.2.0'
+    implementation 'androidx.navigation:navigation-fragment-ktx:2.3.5'
+    implementation 'androidx.navigation:navigation-ui-ktx:2.3.5'
+    implementation 'com.google.firebase:firebase-auth:21.0.1'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.firebase:firebase-storage-ktx:20.0.0'
+    implementation 'com.google.firebase:firebase-messaging:22.0.0'
+    implementation 'androidx.lifecycle:lifecycle-livedata-ktx:2.3.1'
+    testImplementation 'junit:junit:4.13.2'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+    //For Room support
+    def room_version = "2.3.0"
+    implementation("androidx.room:room-runtime:$room_version")
+    annotationProcessor "androidx.room:room-compiler:$room_version"
+    //For ROOM
+    // To use Kotlin annotation processing tool (kapt)
+    kapt("androidx.room:room-compiler:$room_version")
+
+    // Kotlin + coroutines
+    implementation 'androidx.work:work-runtime-ktx:2.7.0-rc01'
+
+    //For gson
+    implementation 'com.google.code.gson:gson:2.8.7'
+
+    //For coroutines
+    implementation('org.jetbrains.kotlinx:kotlinx-coroutines-android:1.5.0-native-mt')
+
+    //For firebase
+    // Import the Firebase BoM
+    implementation platform('com.google.firebase:firebase-bom:28.4.1')
+
+    // Declare the dependency for the Cloud Firestore library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-firestore-ktx'
+
+    // Declare the dependencies for the Crashlytics and Analytics libraries
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-crashlytics-ktx'
+
+    // Add the dependency for the Firebase SDK for Google Analytics
+    // When using the BoM, don't specify versions in Firebase dependencies
+    implementation 'com.google.firebase:firebase-analytics-ktx'
+
+    // Declare the dependency for the Cloud Functions library
+    // When using the BoM, you don't specify versions in Firebase library dependencies
+    implementation 'com.google.firebase:firebase-functions-ktx'
+
+    //Support libraries
+    implementation 'androidx.multidex:multidex:2.0.1'
+
+    //view model
+    implementation 'androidx.lifecycle:lifecycle-viewmodel-ktx:2.3.1'
+
+    //Third party libraries
+    //For scalable dimensions
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+    implementation 'com.intuit.ssp:ssp-android:1.0.6'
+    //anko kotlin helper library
+    implementation 'org.jetbrains.anko:anko-commons:0.10.1'
+    /*
+    //Password edit textbox
+    implementation 'com.alimuzaffar.lib:pinentryedittext:1.3.1'
+    //Image loading library (Local or remote)
+    implementation 'com.github.bumptech.glide:glide:4.1.1'*/
+
+    //For animation
+    def lottieVersion = "3.7.1"
+    implementation "com.airbnb.android:lottie:$lottieVersion"
+
+
+    //For badge drawable
+    //implementation 'com.github.nikartm:image-support:1.0.5'
+
+    implementation 'com.squareup.picasso:picasso:2.71828'
+
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.1.0'
+
+    implementation 'com.itextpdf:itextpdf:5.5.13'
+
+    //Fresh chat SDK
+    implementation 'com.github.freshworks:freshchat-android:4.3.9'
+
+    //MixPanel
+    implementation 'com.mixpanel.android:mixpanel-android:5.9.1'
+
+
+    //implementation 'com.android.support:appcompat-v7:28.0.0'
+
+    /*configurations.all {
+        resolutionStrategy.eachDependency { details ->
+            def requested = details.requested
+            if (requested.group == 'com.android.support') {
+                if (!requested.name.startsWith("multidex")) {
+                    details.useVersion '27.0.2'
+                }
+            }
+
+        }
+    }*/
+
+    configurations.all {
+        resolutionStrategy {
+            eachDependency { details ->
+                // Force all of the primary support libraries to use the same version.
+                if (details.requested.group == 'com.android.support') {
+                    details.useVersion '28.0.0'
+                }
+            }
+        }
+    }
+}

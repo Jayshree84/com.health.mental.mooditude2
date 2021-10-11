@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "192768199854",
+    "firebase_url": "https://moody-cb6aa.firebaseio.com",
+    "project_id": "moody-cb6aa",
+    "storage_bucket": "moody-cb6aa.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:192768199854:android:04343d68b616dd6273f13f",
+        "android_client_info": {
+          "package_name": "com.health.mental.mooditude"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "192768199854-4hi814qgp0g7e35fpirtgnqcm6uk38fn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCHlH0GI_YY6mdcbzr4sQCgLYVTWjq05V0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "192768199854-4hi814qgp0g7e35fpirtgnqcm6uk38fn.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "192768199854-d6ncvo7lbp4ku4np7tscd8f729vjegq4.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pyntail.mooditude",
+                "app_store_id": "1450661800"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

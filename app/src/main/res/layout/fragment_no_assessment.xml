@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animateLayoutChanges="true"
+    android:background="@color/white"
+    android:padding="@dimen/_20sdp"
+    tools:context=".fragment.requesttherapist.NoAssessmentFragment">
+
+    <TextView
+        android:id="@+id/tv_title"
+        style="@style/TitleTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="@dimen/_10sdp"
+        android:text="@string/find_out_therapist" />
+
+    <TextView
+        android:id="@+id/tv_desc"
+        style="@style/DescTextStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_title"
+        android:lineSpacingMultiplier="1.2"
+        android:text="@string/we_use_score_not_available"
+        android:textColor="@color/primaryColor" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_take_assessment"
+        style="@style/RegBtnStyle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_desc"
+        android:layout_marginTop="@dimen/_40sdp"
+        android:layout_marginBottom="@dimen/_15sdp"
+        android:text="@string/take_an_assessment" />
+</RelativeLayout>
